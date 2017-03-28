@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C95F2D7C-F041-4D77-85E1-95C5457F3051}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheSoulCheatServer</RootNamespace>
+    <AssemblyName>TheSoulCheatServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zlib.CF, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Ionic.Zlib.CF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="ServiceStack.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=3.9.63.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountCharge.aspx" />
+    <Content Include="Account_init.aspx" />
+    <Content Include="addBot.aspx" />
+    <Content Include="cheat_Achieve.aspx" />
+    <Content Include="cheat_character_levelup.aspx" />
+    <Content Include="cheat_Guild_Member.aspx" />
+    <Content Include="cheat_init.aspx" />
+    <Content Include="cheat_openTime.aspx" />
+    <Content Include="cheat_Ranking.aspx" />
+    <Content Include="cheat_Ranking2.aspx" />
+    <Content Include="cheat_Ranking_orverload.aspx" />
+    <Content Include="cheat_recommendFriend.aspx" />
+    <Content Include="cheat_Ultimate.aspx" />
+    <Content Include="csvLogDecrypt.aspx" />
+    <Content Include="Encrypt_Decrypt.aspx" />
+    <Content Include="errorLog.aspx" />
+    <Content Include="errorLogDecrypt.aspx" />
+    <Content Include="GuildTimeInit.aspx" />
+    <Content Include="index.html" />
+    <Content Include="Item_Charge2.aspx" />
+    <Content Include="Item_Soul_Charge.aspx" />
+    <Content Include="Soul_Test.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountCharge.aspx.cs">
+      <DependentUpon>AccountCharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountCharge.aspx.designer.cs">
+      <DependentUpon>AccountCharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account_init.aspx.cs">
+      <DependentUpon>Account_init.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account_init.aspx.designer.cs">
+      <DependentUpon>Account_init.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addBot.aspx.cs">
+      <DependentUpon>addBot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addBot.aspx.designer.cs">
+      <DependentUpon>addBot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_Achieve.aspx.cs">
+      <DependentUpon>cheat_Achieve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_Achieve.aspx.designer.cs">
+      <DependentUpon>cheat_Achieve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_character_levelup.aspx.cs">
+      <DependentUpon>cheat_character_levelup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_character_levelup.aspx.designer.cs">
+      <DependentUpon>cheat_character_levelup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_Guild_Member.aspx.cs">
+      <DependentUpon>cheat_Guild_Member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_Guild_Member.aspx.designer.cs">
+      <DependentUpon>cheat_Guild_Member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_init.aspx.cs">
+      <DependentUpon>cheat_init.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_init.aspx.designer.cs">
+      <DependentUpon>cheat_init.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_openTime.aspx.cs">
+      <DependentUpon>cheat_openTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_openTime.aspx.designer.cs">
+      <DependentUpon>cheat_openTime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_Ranking.aspx.cs">
+      <DependentUpon>cheat_Ranking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_Ranking.aspx.designer.cs">
+      <DependentUpon>cheat_Ranking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_Ranking2.aspx.cs">
+      <DependentUpon>cheat_Ranking2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_Ranking2.aspx.designer.cs">
+      <DependentUpon>cheat_Ranking2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_Ranking_orverload.aspx.cs">
+      <DependentUpon>cheat_Ranking_orverload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_Ranking_orverload.aspx.designer.cs">
+      <DependentUpon>cheat_Ranking_orverload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_recommendFriend.aspx.cs">
+      <DependentUpon>cheat_recommendFriend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_recommendFriend.aspx.designer.cs">
+      <DependentUpon>cheat_recommendFriend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cheat_Ultimate.aspx.cs">
+      <DependentUpon>cheat_Ultimate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cheat_Ultimate.aspx.designer.cs">
+      <DependentUpon>cheat_Ultimate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="csvLogDecrypt.aspx.cs">
+      <DependentUpon>csvLogDecrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="csvLogDecrypt.aspx.designer.cs">
+      <DependentUpon>csvLogDecrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypt_Decrypt.aspx.cs">
+      <DependentUpon>Encrypt_Decrypt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Encrypt_Decrypt.aspx.designer.cs">
+      <DependentUpon>Encrypt_Decrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorLog.aspx.cs">
+      <DependentUpon>errorLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorLog.aspx.designer.cs">
+      <DependentUpon>errorLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorLogDecrypt.aspx.cs">
+      <DependentUpon>errorLogDecrypt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="errorLogDecrypt.aspx.designer.cs">
+      <DependentUpon>errorLogDecrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GuildTimeInit.aspx.cs">
+      <DependentUpon>GuildTimeInit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GuildTimeInit.aspx.designer.cs">
+      <DependentUpon>GuildTimeInit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Item_Charge2.aspx.cs">
+      <DependentUpon>Item_Charge2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Item_Charge2.aspx.designer.cs">
+      <DependentUpon>Item_Charge2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Item_Soul_Charge.aspx.cs">
+      <DependentUpon>Item_Soul_Charge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Item_Soul_Charge.aspx.designer.cs">
+      <DependentUpon>Item_Soul_Charge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lib\cheatData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Soul_Test.aspx.cs">
+      <DependentUpon>Soul_Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Soul_Test.aspx.designer.cs">
+      <DependentUpon>Soul_Test.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\hellohuan.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mSeed.RedisManager\mSeed.RedisManager.csproj">
+      <Project>{a5ed0692-dc19-44f6-ba89-a29c476f05d0}</Project>
+      <Name>mSeed.RedisManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheSoul.DataManager\TheSoul.DataManager.csproj">
+      <Project>{d03731af-58ee-47a2-9685-ff3312321833}</Project>
+      <Name>TheSoul.DataManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheSoulGlobalWebServer\TheSoulGlobalWebServer.csproj">
+      <Project>{26dfa240-e0a5-4c8b-a30a-c260639ac0ce}</Project>
+      <Name>TheSoulGlobalWebServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheSoulWebServer\System.Net.Json\System.Net.Json.csproj">
+      <Project>{5aeb89d9-6d00-4460-9ad8-1ccf19e19e96}</Project>
+      <Name>System.Net.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TheSoulWebServer\TheSoulWebServer.csproj">
+      <Project>{4fe55024-2696-4945-9ce3-bc7a7ada1cd3}</Project>
+      <Name>TheSoulWebServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TxnBlock\mSeed.DBTxnBlock.csproj">
+      <Project>{3cdbf913-98fc-48bb-b3bd-9858212ab6c0}</Project>
+      <Name>mSeed.DBTxnBlock</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60767/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.pdb
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.csprojResolveAssemblyReference.cache
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.pdb
+D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.dll
+D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.pdb
+D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.dll
+D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.pdb
+D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.csprojResolveAssemblyReference.cache

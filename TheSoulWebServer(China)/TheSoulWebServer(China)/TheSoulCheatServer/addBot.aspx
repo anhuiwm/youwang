@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addBot.aspx.cs" Inherits="TheSoulCheatServer.addBot" %>

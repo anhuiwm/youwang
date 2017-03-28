@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RequestSoul.aspx.cs" Inherits="TheSoulWebServer.RequestSoul" %>

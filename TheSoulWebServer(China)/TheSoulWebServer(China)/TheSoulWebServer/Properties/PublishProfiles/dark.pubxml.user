@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Ionic.Zlib.CF.dll">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="bin/mSeed.RedisManager.dll">
+      <publishTime>03/18/2017 16:31:42</publishTime>
+    </File>
+    <File Include="bin/mSeedDBTxnBlock.dll">
+      <publishTime>03/21/2017 10:12:04</publishTime>
+    </File>
+    <File Include="bin/protobuf-net.dll">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Common.dll">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Interfaces.dll">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Redis.dll">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Text.dll">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="bin/System.Net.Json.dll">
+      <publishTime>03/18/2017 16:31:41</publishTime>
+    </File>
+    <File Include="bin/TheSoul.DataManager.dll">
+      <publishTime>03/22/2017 17:51:20</publishTime>
+    </File>
+    <File Include="bin/TheSoulWebServer.dll">
+      <publishTime>03/22/2017 17:51:21</publishTime>
+    </File>
+    <File Include="CouponCheck.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="dbcon/TheSoulDBConnect.ini">
+      <publishTime>03/22/2017 17:40:30</publishTime>
+    </File>
+    <File Include="Encrypt_Decrypt.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="ErrorLogFile.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="ErrorLogView.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="FacebookFriendlyPointGacha.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="FacebookFriendsAddList.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="FacebookFriendsList.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="FacebookFriendsRequestKey.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="FacebookFriendsRequestKeyReject.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="FacebookFriendsSendKey.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.0.min.js">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="NoticeInfo.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestAccount.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestBackground.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestBossRaid.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestEvent.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestFriends.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestFriendsGlobal.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestGE.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="requestGuild.aspx">
+      <publishTime>02/06/2017 11:41:42</publishTime>
+    </File>
+    <File Include="RequestItem.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestMail.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestMission.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestOverlord.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestPrivateServer.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestPvP.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestShop.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RequestSoul.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RevivalCharacter.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="RubyPvPOpen.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="SetOption.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="SoulGuideBookList.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="SoulIllustratedReward.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="SoulIllustratedView.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="TimeRefresh.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="TutorialSave.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/22/2017 17:51:22</publishTime>
+    </File>
+    <File Include="WebTest.aspx">
+      <publishTime>02/06/2017 11:41:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

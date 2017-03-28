@@ -1,0 +1,5 @@
+D:\mywork\sg_server\TheSoulWebServer(China)\TxnBlock\bin\Release\mSeedDBTxnBlock.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TxnBlock\bin\Release\mSeedDBTxnBlock.pdb
+D:\mywork\sg_server\TheSoulWebServer(China)\TxnBlock\obj\Release\mSeedDBTxnBlock.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TxnBlock\obj\Release\mSeedDBTxnBlock.pdb
+D:\mywork\sg_server\TheSoulWebServer(China)\TxnBlock\obj\Release\mSeed.DBTxnBlock.csprojResolveAssemblyReference.cache

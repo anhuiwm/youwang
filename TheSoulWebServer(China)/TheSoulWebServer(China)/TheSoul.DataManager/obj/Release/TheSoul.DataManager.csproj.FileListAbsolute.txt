@@ -1,0 +1,17 @@
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\TheSoul.DataManager.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\TheSoul.DataManager.pdb
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\Ionic.Zlib.CF.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\mSeed.RedisManager.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\mSeedDBTxnBlock.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Text.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Interfaces.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Redis.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Common.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\mSeed.RedisManager.pdb
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\mSeedDBTxnBlock.pdb
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Text.xml
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Redis.xml
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\bin\Release\ServiceStack.Common.xml
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\obj\Release\TheSoul.DataManager.csprojResolveAssemblyReference.cache
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\obj\Release\TheSoul.DataManager.dll
+D:\mywork\sg_server\TheSoulWebServer(China)\TheSoul.DataManager\obj\Release\TheSoul.DataManager.pdb
