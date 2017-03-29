@@ -1,0 +1,17 @@
+[2017_03_07 13:38:35.525] [Debug (cache) : ["TXN [rollback] => [platform, 0.4734553]"]]
+[2017_03_07 13:38:41.064] [Debug (cache) : ["TXN [rollback] => [platform, 1.6177202]"]]
+[2017_03_07 13:38:41.069] [Info (billing) : IAB Fail - mol httpRequst: dataParams = applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=55ol_20170306_205124.444&amount=5000&currencyCode=USD&paymentId=2&returnUrl=120.92.227.117:11000&description=product&customerId=1544&signature=b403f20a8df94bd50b866bd6c3cb6111]
+[2017_03_07 13:39:41.954] [Debug (网址不通) : http request fail for 无法连接到远程服务器]
+[2017_03_07 13:39:42.388] [Info (billing) : IAB Fail - mol retBody Empty : token = 55ol_20170306_205124.444]
+[2017_03_07 13:39:45.387] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"55ol_20170306_205124.444","product_id":"com.mfun.soulsea.45","buy_date":"2017-03-06"}
+ReturnJson : {"error":901}
+]
+[2017_03_07 13:39:45.421] [Info (billing) : IAB Fail - mol httpRequst: dataParams = applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=55ol_20170306_205124.444&amount=5000&currencyCode=USD&paymentId=2&returnUrl=120.92.227.117:11000&description=product&customerId=1544&signature=b403f20a8df94bd50b866bd6c3cb6111]
+[2017_03_07 13:40:19.903] [Debug (网址不通) : http request fail for 无法连接到远程服务器]
+[2017_03_07 13:40:26.481] [Info (billing) : IAB Fail - mol retBody Empty : token = 55ol_20170306_205124.444]
+[2017_03_07 13:40:26.481] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"55ol_20170306_205124.444","product_id":"com.mfun.soulsea.45","buy_date":"2017-03-06"}
+ReturnJson : {"error":901}
+]
+[2017_03_07 13:40:33.023] [Info (billing) : IAB Fail - mol httpRequst: dataParams = applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=55ol_20170306_205124.444&amount=5000&currencyCode=USD&paymentId=2&returnUrl=120.92.227.117:11000&description=product&customerId=1544&signature=b403f20a8df94bd50b866bd6c3cb6111]

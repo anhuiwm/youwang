@@ -1,0 +1,13 @@
+英文版本的集成指南:
+
+https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECReferenceTxns/?mark=reference%20transaction
+
+API的参数列表:
+
+https://developer.paypal.com/docs/classic/api/#express-checkout
+
+ 
+
+中文版本的集成指南:
+
+https://www.paypal-biz.com/product/express-checkout/index.html

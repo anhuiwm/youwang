@@ -1,0 +1,29 @@
+http://localhost/TheSoulWebServer/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+http://120.92.227.117:11000/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=1234567893&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+http://127.0.0.1/info.php
+
+createBillingID
+buy 
+此时 　　① 调用 SetExpressCheckout API
+resP　　       ② 获得 SetExpressCheckout API 调用的返回值 token
+
+buy的返回把token发给客户端
+
+客户端③ 带着参数token 重定向到paypal web
+④ 顾客编辑完自己的 paypal 帐户信息后，回调到服务器？
+　
+C++的协议的时候，
+⑤ 调用 GetExpressCheckoutDetails API
+⑥ 调用 DoExpressCheckoutPayment API
+⑦ 回发success ，发奖
+
+客户端刷新。、
+
+
+http://www.cnblogs.com/eggqing/p/5429983.html
+
+http://blog.csdn.net/aas319/article/details/50549995
+
+http://www.cnblogs.com/eggqing/p/5429983.html
