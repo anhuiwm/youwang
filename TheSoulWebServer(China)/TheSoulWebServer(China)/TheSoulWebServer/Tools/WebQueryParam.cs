@@ -518,12 +518,33 @@ namespace TheSoulWebServer.Tools
                 }
                 else
                 {
-                    if (ReqParams.Count <= 0)
-                    {
-                        ParamDecrypt(userEncryptKey.EncryptKey);
-                    }
+                    //<<<old
+                    //if (ReqParams.Count <= 0)
+                    //{
+                    //    ParamDecrypt(userEncryptKey.EncryptKey);
+                    //}
 
-                    retValue = ReqParams.ContainsKey(key) ? ReqParams[key] : default_value;
+                    //retValue = ReqParams.ContainsKey(key) ? ReqParams[key] : default_value;
+                    //<<<new
+                    if (System.Web.HttpContext.Current.Request.Params.AllKeys.Contains(key))
+                    {
+                        retValue = System.Convert.ToString(System.Web.HttpContext.Current.Request.Params[key]);
+                        retValue = string.IsNullOrEmpty(retValue) ? default_value : retValue;
+                        if (!ReqParams.ContainsKey(key))
+                            ReqParams.Add(key, retValue);
+                        else
+                            ReqParams[key] = retValue;
+                    }
+                    else if (System.Web.HttpContext.Current.Request.Params.AllKeys.Contains(realKey))
+                    {
+                        retValue = System.Convert.ToString(System.Web.HttpContext.Current.Request.Params[realKey]);
+                        retValue = string.IsNullOrEmpty(retValue) ? default_value : retValue;
+                        if (!ReqParams.ContainsKey(key))
+                            ReqParams.Add(key, retValue);
+                        else
+                            ReqParams[key] = retValue;
+                    }
+                    //<<<end 20170330
                 }
             }
             catch (Exception e)

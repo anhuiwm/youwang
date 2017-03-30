@@ -381,6 +381,7 @@
     </Compile>
     <Compile Include="WebTest.aspx.cs">
       <DependentUpon>WebTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebTest.aspx.designer.cs">
       <DependentUpon>WebTest.aspx</DependentUpon>

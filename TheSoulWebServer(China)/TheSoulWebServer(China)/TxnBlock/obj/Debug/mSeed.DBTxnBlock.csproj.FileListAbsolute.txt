@@ -8,3 +8,7 @@ D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\Debug\mS
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.dll
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.pdb
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeed.DBTxnBlock.csprojResolveAssemblyReference.cache
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\Debug\mSeedDBTxnBlock.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\Debug\mSeedDBTxnBlock.pdb
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.pdb

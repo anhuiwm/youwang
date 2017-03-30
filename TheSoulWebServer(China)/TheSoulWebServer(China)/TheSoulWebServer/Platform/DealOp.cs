@@ -323,10 +323,7 @@ namespace TheSoulWebServer.Platform
                 string AuthCode = string.Empty;
                 if (retError == Result_Define.eResult.SUCCESS)
                 {
-                    if ((Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.Global_aOS_MyCard
-                        || (Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.Global_iOS_MyCard
-                        || (Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.mfun_aOS_Mycard
-                        || (Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.mfun_iOS_Mycard)
+                    if (MyCard.IsMyCard((Shop_Define.eBillingType)BillingType))
                     {
                         string ip = queryFetcher.QueryParam_Fetch("ip", "");
                         string port = queryFetcher.QueryParam_Fetch("port", "");
@@ -396,10 +393,7 @@ namespace TheSoulWebServer.Platform
                         json = mJsonSerializer.AddJson(json, Shop_Define.Shop_Ret_KeyList[Shop_Define.eShopReturnKeys.BuyPriceType], mJsonSerializer.ToJsonString((int)BuyPriceType));
                         json = mJsonSerializer.AddJson(json, Shop_Define.Shop_Ret_KeyList[Shop_Define.eShopReturnKeys.BuyPriceValue], mJsonSerializer.ToJsonString(BuyPriceValue));
 
-                        if ((Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.Global_aOS_MyCard
-                            || (Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.Global_iOS_MyCard
-                            || (Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.mfun_aOS_Mycard
-                            || (Shop_Define.eBillingType)BillingType == Shop_Define.eBillingType.mfun_iOS_Mycard)
+                        if (MyCard.IsMyCard((Shop_Define.eBillingType)BillingType ))
                         {
                             json = mJsonSerializer.AddJson(json, "authcode", AuthCode);
                         }
@@ -520,10 +514,7 @@ namespace TheSoulWebServer.Platform
                 string AuthCode = string.Empty;
                 if (retError == Result_Define.eResult.SUCCESS)
                 {
-                    if (BillingType == Shop_Define.eBillingType.Global_aOS_MyCard
-                        || BillingType == Shop_Define.eBillingType.Global_iOS_MyCard
-                        || BillingType == Shop_Define.eBillingType.mfun_aOS_Mycard
-                        || BillingType == Shop_Define.eBillingType.mfun_iOS_Mycard)
+                    if( MyCard.IsMyCard( BillingType ) )
                     {
                         string ip = queryFetcher.QueryParam_Fetch("ip", "");
                         string port = queryFetcher.QueryParam_Fetch("port", "");
@@ -547,6 +538,7 @@ namespace TheSoulWebServer.Platform
                             string oldbilling_type = queryFetcher.QueryParam_Fetch("billing_type");
                             string dataParams = "token=" + platBilling_Token + "&amount=" + BuyPriceValue + "&groupid=" + TheSoulDBcon.server_group_id + "&product_id=" + productID + "&billingType=" + oldbilling_type + "&aid=" + AID;
                             string retBody = GlobalManager.GetReqeustURL(Uri, dataParams, false);
+                            MyLog4NetInfo.LogInfo("mycard retBody::" + retBody);
                             if (string.IsNullOrEmpty(retBody))
                             {
                                 retError = Result_Define.eResult.SHOP_ITEM_BUY_TIME_INVALIDE;
@@ -572,19 +564,13 @@ namespace TheSoulWebServer.Platform
                 //end
 
 
-
-
-
-
-
-
                 //paypal (等待封装)
                 if (retError == Result_Define.eResult.SUCCESS)
                 {
                     if (BillingType == Shop_Define.eBillingType.Global_aOS_PayPal
                         || BillingType == Shop_Define.eBillingType.Global_iOS_PayPal
                         || BillingType == Shop_Define.eBillingType.mfun_aOS_Paypal
-                        || BillingType == Shop_Define.eBillingType.mfun_aOS_Mycard)
+                        || BillingType == Shop_Define.eBillingType.mfun_aOS_Paypal)
                     {
                         string platBilling_Token = TheSoulDBcon.server_group_id + "-" + Billing_Token;
 

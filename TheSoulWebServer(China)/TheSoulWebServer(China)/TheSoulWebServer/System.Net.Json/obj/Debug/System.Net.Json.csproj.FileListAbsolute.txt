@@ -8,3 +8,7 @@ D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.dll
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.pdb
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.csprojResolveAssemblyReference.cache
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.pdb
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.pdb

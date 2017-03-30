@@ -21,3 +21,14 @@ D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bi
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Text.xml
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\obj\Debug\mSeed.RedisManager.dll
 D:\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\obj\Debug\mSeed.RedisManager.pdb
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\mSeed.RedisManager.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\mSeed.RedisManager.pdb
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Common.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Interfaces.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Redis.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Text.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Common.xml
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Redis.xml
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\bin\Debug\ServiceStack.Text.xml
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\obj\Debug\mSeed.RedisManager.dll
+D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\mSeed.RedisManager\obj\Debug\mSeed.RedisManager.pdb
