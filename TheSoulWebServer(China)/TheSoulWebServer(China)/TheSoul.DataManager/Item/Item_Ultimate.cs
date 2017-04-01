@@ -314,6 +314,14 @@ namespace TheSoul.DataManager
             return retObj;
         }
 
+        /// 获取当前角色最大神兵等级的神兵
+        public static List<User_Ultimate_Inven> GetMaxUser_Ultimate_Inven(ref TxnBlock TB, long AID, string dbkey = Item_Define.Item_InvenDB)
+        {
+            string setQuery = string.Format("SELECT top 1 * FROM {0} WITH(NOLOCK, INDEX(IX_User_Ultimate_Inven))  WHERE aid = {1} ", Item_Define.Item_User_Ultimate_Inven_Table, AID);
+            return TheSoul.DataManager.GenericFetch.FetchFromDB_MultipleRow<User_Ultimate_Inven>(ref TB, setQuery, dbkey);
+        }
+
+
         public static List<User_Ultimate_Inven> GetUser_Ultimate_InvenList(ref TxnBlock TB, long AID, long CID, string dbkey = Item_Define.Item_InvenDB)
         {
             string setQuery = string.Format("SELECT * FROM {0} WITH(NOLOCK, INDEX(IX_User_Ultimate_Inven))  WHERE aid = {1} AND cid = {2} ", Item_Define.Item_User_Ultimate_Inven_Table, AID, CID);

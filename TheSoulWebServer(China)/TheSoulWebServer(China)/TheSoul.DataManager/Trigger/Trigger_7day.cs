@@ -184,7 +184,9 @@ namespace TheSoul.DataManager
             return retObj;
         }
 
-        public static bool Check7Day_Clear_Trigger(ref TxnBlock TB, long AID, out long Current, Trigger_Define.eTriggerType TriggerType, int TriggerValue1, int TriggerValue2, int TriggerValue3, int UserValue = 0)
+        /// UserValue 仅仅是用户的天数？
+        public static bool Check7Day_Clear_Trigger(ref TxnBlock TB, long AID, out long Current, Trigger_Define.eTriggerType TriggerType, 
+            int TriggerValue1, int TriggerValue2, int TriggerValue3, int UserValue = 0)
         {
             switch (TriggerType)
             {
@@ -197,9 +199,47 @@ namespace TheSoul.DataManager
                 case Trigger_Define.eTriggerType.VIP_Point:
                     Current = VipManager.GetUser_VIPInfo(ref TB, AID).totalvippoint;
                     return TriggerValue3 <= Current;
+                case Trigger_Define.eTriggerType.AttackPower:
+                    AccountManager.RemoveUser_UserWarPoint(AID);
+                    /// 战力规则，客户端的战力是除以10的显示
+                    Current = AccountManager.GetUserWarPoint(ref TB, AID).WAR_POINT / 10;
+                    return TriggerValue3 <= Current;
+                case Trigger_Define.eTriggerType.DivineWeapon:
+                    List<User_Ultimate_Inven> setObj = new List<User_Ultimate_Inven>();
+                    setObj = ItemManager.GetMaxUser_Ultimate_Inven(ref TB, AID);
+                    Current = 0;
+                    if (setObj.Count > 0)
+                    {
+                        Current = setObj[0].level;
+                    }
+                    return TriggerValue3 <= Current;
                 case Trigger_Define.eTriggerType.None:
                     Current = 0;
                     return true;
+                //case Trigger_Define.eTriggerType.Armor_GradeUp:
+                //    Current = 1;
+                //    return true;
+                //case Trigger_Define.eTriggerType.Soul_LvUp:
+                //    Current = 2;
+                //    return true;
+                //case Trigger_Define.eTriggerType.Weapon_LvUp:
+                //    Current = 3;
+                //    return true;
+                //case Trigger_Define.eTriggerType.Play_PVP:
+                //    Current = 4;
+                //    return true;
+                //case Trigger_Define.eTriggerType.Kill_Count:
+                //    Current = 5;
+                //    return true;
+                //default:
+                //    {
+                //        Current = UserValue;
+                //        /// 如果当前的值小于填写的第三个参数，则为失败，否则则通过过滤
+                //        if (Current < TriggerValue3)
+                //            return false;
+                //        break;
+                //    }
+                //    return true;
             }
             Current = 0;
             return false;

@@ -240,6 +240,8 @@ namespace TheSoul.DataManager
             GACHASHOP,
             GACHASHOP_SPECIAL,
             ACCOUNT_REGIST,
+            AttackPower,        /// 用户总战力数据比较
+            DivineWeapon,       /// 用户最高等级神兵比较
             FaceBook_Open,
             FaceBook_FriendCount,
         }
@@ -338,6 +340,8 @@ namespace TheSoul.DataManager
             { "GACHASHOP", eTriggerType.GACHASHOP},
             { "GACHASHOP_SPECIAL", eTriggerType.GACHASHOP_SPECIAL},
             { "ACCOUNT_REGIST", eTriggerType.ACCOUNT_REGIST},
+            { "AttackPower", eTriggerType.AttackPower},
+            { "DivineWeapon", eTriggerType.DivineWeapon},
             { "FaceBook_Open", eTriggerType.FaceBook_Open},
             { "FaceBook_FriendCount", eTriggerType.FaceBook_FriendCount},            
         };
@@ -435,6 +439,8 @@ namespace TheSoul.DataManager
             { eTriggerType.GACHASHOP, "GACHASHOP"},
             { eTriggerType.GACHASHOP_SPECIAL, "GACHASHOP_SPECIAL"},
             { eTriggerType.ACCOUNT_REGIST, "ACCOUNT_REGIST"},
+            { eTriggerType.AttackPower, "AttackPower"},
+            { eTriggerType.DivineWeapon, "DivineWeapon"},
             { eTriggerType.FaceBook_Open, "FaceBook_Open"},        
             { eTriggerType.FaceBook_FriendCount, "FaceBook_FriendCount"},            
         };

@@ -1687,6 +1687,8 @@ namespace TheSoul.DataManager
                     case Trigger_Define.eTriggerType.Clear_Event:
                     case Trigger_Define.eTriggerType.Soul_Acquire:
                     case Trigger_Define.eTriggerType.Soul_Lv:
+                    case Trigger_Define.eTriggerType.AttackPower:
+                    case Trigger_Define.eTriggerType.DivineWeapon:
                     case Trigger_Define.eTriggerType.Game_Access:
                     case Trigger_Define.eTriggerType.FaceBook_FriendCount:
                         return CheckTrigger(ref TB, AID, TriggerType, StartTime, TriggerValue1, TriggerValue2, TriggerValue3, ref CurrentValue, 0, 0, 0, userCharacter, userMission, userGuerillaMission, userElistMission);
@@ -2198,15 +2200,34 @@ namespace TheSoul.DataManager
                 // gacha shop
                 case Trigger_Define.eTriggerType.GACHASHOP:
                 case Trigger_Define.eTriggerType.GACHASHOP_SPECIAL:
+
                 // account regist
                 case Trigger_Define.eTriggerType.ACCOUNT_REGIST:
                     {
                         current += UserValue3;
-
+                        /// 如果当前的值小于填写的第三个参数，则为失败，否则则通过过滤
                         if (current < TriggerValue3)
                             return false;
                         break;
                     }
+
+                    /// 角色战力信息 warpoint
+                case Trigger_Define.eTriggerType.AttackPower:
+                    AccountManager.RemoveUser_UserWarPoint(AID);
+                    /// 战力规则，客户端的战力是除以10的显示
+                    current = AccountManager.GetUserWarPoint(ref TB, AID).WAR_POINT / 10;
+                    return TriggerValue3 <= current;
+                    break;
+                case Trigger_Define.eTriggerType.DivineWeapon:
+                    List<User_Ultimate_Inven> setObj = new List<User_Ultimate_Inven>();
+                    setObj = ItemManager.GetMaxUser_Ultimate_Inven(ref TB, AID);
+                    current = 0;
+                    if (setObj.Count > 0)
+                    {
+                        current = setObj[0].level;
+                    }
+                    return TriggerValue3 <= current;
+                    break;
                 case Trigger_Define.eTriggerType.Soul_Acquire:
                     {
                         List<User_ActiveSoul> userActiveSoul = SoulManager.GetUser_ActiveSoul(ref TB, AID);

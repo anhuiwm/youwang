@@ -133,6 +133,8 @@ namespace TheSoul.DataManager
                 List<TriggerProgressData> setDataList = new List<TriggerProgressData>();
                 setDataList.Add(new TriggerProgressData(Trigger_Define.eTriggerType.Weapon_LvUp, (int)(Trigger_Define.eCheckSuccess.Try)));
                 setDataList.Add(new TriggerProgressData(Trigger_Define.eTriggerType.Weapon_LvUp, (int)(bSuccess ? Trigger_Define.eCheckSuccess.Success : Trigger_Define.eCheckSuccess.Fail)));
+                
+                /// 当前武器的等级是否超过了活动规定的等级
                 setDataList.Add(new TriggerProgressData(Trigger_Define.eTriggerType.Weapon_Lv, 0, 0, findItem.level));
 
                 retError = TriggerManager.ProgressTrigger(ref TB, AID, setDataList);

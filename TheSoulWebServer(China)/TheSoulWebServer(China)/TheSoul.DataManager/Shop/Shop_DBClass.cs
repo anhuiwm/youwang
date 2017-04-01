@@ -243,7 +243,9 @@ namespace TheSoul.DataManager.DBClass
         public byte LoopType { get; set; }
         public DateTime SaleStartTime { get; set; }
         public DateTime SaleEndTime { get; set; }
-        public string Shop_Icon_Atlas { get; set; } 
+        public string Shop_Icon_Atlas { get; set; }
+        public int Originl { get; set; }   /// 原价
+
     }
 
     public class System_Package_RewardBox
@@ -287,7 +289,9 @@ namespace TheSoul.DataManager.DBClass
         public string detail_cn { get; set; }
         public byte vip_level { get; set; }
         public string productid { get; set; }
-        public string Shop_Icon_Atlas { get; set; } 
+        public string Shop_Icon_Atlas { get; set; }
+        public int OriginlValue { get; set; }           ///  原价
+        public long lefttime { get; set; }              /// 剩余时间
         public List<RetPackageReward> item_list { get; set; }
 
         public RetPackageList() { item_list = new List<RetPackageReward>(); }
@@ -307,7 +311,9 @@ namespace TheSoul.DataManager.DBClass
             item_list = new List<RetPackageReward>();
             productid = setList.Product_ID;
             Shop_Icon_Atlas = setList.Shop_Icon_Atlas;
-
+            OriginlValue = setList.Originl;
+            TimeSpan TS = setList.SaleEndTime - DateTime.Now;
+            lefttime = System.Convert.ToInt64(TS.TotalSeconds);
         }
     }
 

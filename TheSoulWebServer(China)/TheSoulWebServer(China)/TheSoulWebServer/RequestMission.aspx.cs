@@ -392,6 +392,7 @@ namespace TheSoulWebServer
                                         setTriggerList.Add(new TriggerProgressData(Trigger_Define.eTriggerType.Clear_Scenario, WorldID, StageID, SweepCount));
                                     //setTriggerList.Add(new TriggerProgressData(Trigger_Define.eTriggerType.Clear_Scenario_First, StageID, isClear ? 1 : 2));
                                     if (requestOp.Equals("mission_result_sweep"))
+                                        /// 当前使用的扫荡次数，是否超过了活动的规定
                                         setTriggerList.Add(new TriggerProgressData(Trigger_Define.eTriggerType.Autoclear_Use, 0, 0, SweepCount));
                                 }
                                 else if (requestOp.Equals("dark_passage_result") || requestOp.Equals("dark_passage_result_sweep"))

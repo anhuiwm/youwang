@@ -199,6 +199,7 @@
     </Compile>
     <Compile Include="csvLogDecrypt.aspx.cs">
       <DependentUpon>csvLogDecrypt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="csvLogDecrypt.aspx.designer.cs">
       <DependentUpon>csvLogDecrypt.aspx</DependentUpon>
@@ -212,6 +213,7 @@
     </Compile>
     <Compile Include="errorLog.aspx.cs">
       <DependentUpon>errorLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="errorLog.aspx.designer.cs">
       <DependentUpon>errorLog.aspx</DependentUpon>
