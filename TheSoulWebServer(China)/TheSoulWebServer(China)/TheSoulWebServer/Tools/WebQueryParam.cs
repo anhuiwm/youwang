@@ -11,6 +11,9 @@ using TheSoul.DataManager;
 using TheSoul.DataManager.DBClass;
 using TheSoul.DataManager.Global;
 using ServiceStack.Text;
+using logWeb;
+using System.IO;
+using System.Text;
 
 using NAMU;   // for compress string and convert base64
 
@@ -488,6 +491,24 @@ namespace TheSoulWebServer.Tools
 
         public string QueryParam_Fetch(string key, string default_value = default(string), string encryptKey = TheSoulEncrypt.baseEncrypt)
         {
+            string type = System.Web.HttpContext.Current.Request.RequestType;
+            MyLog4NetInfo.LogInfo("start:::Type:" + type);
+            if (type == "GET")
+            {
+                setDebug = true;
+                string logreq = System.Web.HttpContext.Current.Request.Url.PathAndQuery;
+                MyLog4NetInfo.LogInfo("req:GET:" + logreq);
+            }
+            else
+            {
+                setDebug = false;
+                //Stream s = System.Web.HttpContext.Current.Request.InputStream;
+                //byte[] b = new byte[s.Length];
+                //s.Read(b, 0, (int)s.Length);
+                //string logreqpost = Encoding.UTF8.GetString(b);
+                //MyLog4NetInfo.LogInfo("req:POST:" + logreqpost);
+            }
+
             string retValue = default_value;
             string realKey = key;
             key = key.ToLower();
@@ -519,31 +540,39 @@ namespace TheSoulWebServer.Tools
                 else
                 {
                     //<<<old
-                    //if (ReqParams.Count <= 0)
-                    //{
-                    //    ParamDecrypt(userEncryptKey.EncryptKey);
-                    //}
+                    if (ReqParams.Count <= 0)
+                    {
+                        ParamDecrypt(userEncryptKey.EncryptKey);
+                    }
 
-                    //retValue = ReqParams.ContainsKey(key) ? ReqParams[key] : default_value;
+                    retValue = ReqParams.ContainsKey(key) ? ReqParams[key] : default_value;
+
+                    string logreqpost ="";
+                    foreach(KeyValuePair<string, string> kvp in ReqParams)
+                    {
+                        string temp = kvp.Key +"="+kvp.Value+"&";
+                        logreqpost = logreqpost + temp;
+                    }
+                    MyLog4NetInfo.LogInfo("req:POST:" + logreqpost);
                     //<<<new
-                    if (System.Web.HttpContext.Current.Request.Params.AllKeys.Contains(key))
-                    {
-                        retValue = System.Convert.ToString(System.Web.HttpContext.Current.Request.Params[key]);
-                        retValue = string.IsNullOrEmpty(retValue) ? default_value : retValue;
-                        if (!ReqParams.ContainsKey(key))
-                            ReqParams.Add(key, retValue);
-                        else
-                            ReqParams[key] = retValue;
-                    }
-                    else if (System.Web.HttpContext.Current.Request.Params.AllKeys.Contains(realKey))
-                    {
-                        retValue = System.Convert.ToString(System.Web.HttpContext.Current.Request.Params[realKey]);
-                        retValue = string.IsNullOrEmpty(retValue) ? default_value : retValue;
-                        if (!ReqParams.ContainsKey(key))
-                            ReqParams.Add(key, retValue);
-                        else
-                            ReqParams[key] = retValue;
-                    }
+                    //if (System.Web.HttpContext.Current.Request.Params.AllKeys.Contains(key))
+                    //{
+                    //    retValue = System.Convert.ToString(System.Web.HttpContext.Current.Request.Params[key]);
+                    //    retValue = string.IsNullOrEmpty(retValue) ? default_value : retValue;
+                    //    if (!ReqParams.ContainsKey(key))
+                    //        ReqParams.Add(key, retValue);
+                    //    else
+                    //        ReqParams[key] = retValue;
+                    //}
+                    //else if (System.Web.HttpContext.Current.Request.Params.AllKeys.Contains(realKey))
+                    //{
+                    //    retValue = System.Convert.ToString(System.Web.HttpContext.Current.Request.Params[realKey]);
+                    //    retValue = string.IsNullOrEmpty(retValue) ? default_value : retValue;
+                    //    if (!ReqParams.ContainsKey(key))
+                    //        ReqParams.Add(key, retValue);
+                    //    else
+                    //        ReqParams[key] = retValue;
+                    //}
                     //<<<end 20170330
                 }
             }

@@ -12,3 +12,7 @@ D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebSer
 D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.pdb
 D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.dll
 D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.pdb
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.dll
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\bin\Debug\System.Net.Json.pdb
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.dll
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TheSoulWebServer\System.Net.Json\obj\Debug\System.Net.Json.pdb

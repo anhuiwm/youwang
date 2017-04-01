@@ -12,3 +12,7 @@ D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\
 D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\Debug\mSeedDBTxnBlock.pdb
 D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.dll
 D:\youwang\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.pdb
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\Debug\mSeedDBTxnBlock.dll
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\bin\Debug\mSeedDBTxnBlock.pdb
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.dll
+D:\mywork\youwang\TheSoulWebServer(China)\TheSoulWebServer(China)\TxnBlock\obj\Debug\mSeedDBTxnBlock.pdb

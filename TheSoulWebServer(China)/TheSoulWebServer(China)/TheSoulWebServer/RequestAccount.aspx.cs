@@ -14,6 +14,10 @@ using TheSoul.DataManager.DBClass;
 using TheSoul.DataManager.Global;
 using TheSoulWebServer.Tools;
 using ServiceStack.Text;
+using logWeb;
+using System.IO;
+using System.Text;
+ 
 
 namespace TheSoulWebServer
 {
@@ -46,7 +50,6 @@ namespace TheSoulWebServer
 
             WebQueryParam queryFetcher = new WebQueryParam();
             string retJson = "";
-
             TxnBlock tb = new TxnBlock();
             {
                 long AID = 0;

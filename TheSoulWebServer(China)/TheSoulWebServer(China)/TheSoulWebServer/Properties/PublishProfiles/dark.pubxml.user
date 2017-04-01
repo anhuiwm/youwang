@@ -8,7 +8,7 @@
     <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
     <LastUsedPlatform>Any CPU</LastUsedPlatform>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Administrator\Desktop\dark\release</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\user\Desktop\dark</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Ionic.Zlib.CF.dll">
@@ -18,10 +18,16 @@
       <publishTime>03/29/2017 22:59:41</publishTime>
     </File>
     <File Include="bin/mSeed.RedisManager.dll">
-      <publishTime>03/30/2017 23:03:35</publishTime>
+      <publishTime>04/01/2017 15:02:13</publishTime>
+    </File>
+    <File Include="bin/mSeed.RedisManager.pdb">
+      <publishTime>04/01/2017 15:02:13</publishTime>
     </File>
     <File Include="bin/mSeedDBTxnBlock.dll">
-      <publishTime>03/30/2017 23:03:35</publishTime>
+      <publishTime>04/01/2017 15:02:13</publishTime>
+    </File>
+    <File Include="bin/mSeedDBTxnBlock.pdb">
+      <publishTime>04/01/2017 15:02:13</publishTime>
     </File>
     <File Include="bin/protobuf-net.dll">
       <publishTime>02/06/2017 11:41:42</publishTime>
@@ -39,13 +45,22 @@
       <publishTime>02/06/2017 11:41:42</publishTime>
     </File>
     <File Include="bin/System.Net.Json.dll">
-      <publishTime>03/30/2017 23:03:35</publishTime>
+      <publishTime>04/01/2017 15:02:13</publishTime>
+    </File>
+    <File Include="bin/System.Net.Json.pdb">
+      <publishTime>04/01/2017 15:02:13</publishTime>
     </File>
     <File Include="bin/TheSoul.DataManager.dll">
-      <publishTime>03/30/2017 23:03:35</publishTime>
+      <publishTime>04/01/2017 15:02:14</publishTime>
+    </File>
+    <File Include="bin/TheSoul.DataManager.pdb">
+      <publishTime>04/01/2017 15:02:14</publishTime>
     </File>
     <File Include="bin/TheSoulWebServer.dll">
-      <publishTime>03/30/2017 23:41:55</publishTime>
+      <publishTime>04/01/2017 15:02:15</publishTime>
+    </File>
+    <File Include="bin/TheSoulWebServer.pdb">
+      <publishTime>04/01/2017 15:02:15</publishTime>
     </File>
     <File Include="CouponCheck.aspx">
       <publishTime>02/06/2017 11:41:41</publishTime>
@@ -162,7 +177,7 @@
       <publishTime>02/06/2017 11:41:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/30/2017 23:03:44</publishTime>
+      <publishTime>04/01/2017 15:02:23</publishTime>
     </File>
     <File Include="WebTest.aspx">
       <publishTime>02/06/2017 11:41:41</publishTime>

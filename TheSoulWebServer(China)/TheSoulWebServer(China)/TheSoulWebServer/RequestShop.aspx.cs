@@ -54,6 +54,10 @@ namespace TheSoulWebServer
 
             WebQueryParam queryFetcher = new WebQueryParam();
             string logreq = System.Web.HttpContext.Current.Request.Url.PathAndQuery;
+            string type = Request.RequestType;
+            string opPost = Request.Form["op"];
+            string opGet = Request.QueryString["op"];
+            MyLog4NetInfo.LogInfo("type:" + type + "!" + opPost + "!" + opGet + "!");
             MyLog4NetInfo.LogInfo("req:" + logreq);
             string retJson = "";
             TxnBlock tb = new TxnBlock();
