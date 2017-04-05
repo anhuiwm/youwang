@@ -46,7 +46,7 @@ namespace mSeed.Platform
         public static Result_Define.eResult iOSMolIABVerify(ref JsonObject json, string purchaseToken, string product_id, string webIPandPort, string realToken, string price)
         {
 
-            mSeed.Common.mLogger.mLogger.Info("iOSMolIABVerify coming", "billing");
+            //mSeed.Common.mLogger.mLogger.Info("iOSMolIABVerify coming", "billing");
 
             Result_Define.eResult retError = Result_Define.eResult.BILLING_TOKEN_INVALIDE;
             string Uri = molURL_IABVerify_SandBox;
@@ -69,6 +69,7 @@ namespace mSeed.Platform
                 "&currencyCode=" + currencyCode + "&paymentId=" + product_id + "&returnUrl=" + returnUrl + "&version=" + version + "&description=" + description + 
                 "&customerId=" + customerId + "&signature=" + signature;
 
+            mSeed.Common.mLogger.mLogger.Info("req::"+Uri+'/'+ dataParams);
 
             string retBody = WebTools.GetReqeustURL(Uri, dataParams, true);
             mSeed.Common.mLogger.mLogger.Info(string.Format("retBody= {0}", retBody), "billing");

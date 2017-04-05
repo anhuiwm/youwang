@@ -19,10 +19,16 @@ Youwang2004
 
 
 http://107.150.101.9/ 北美服务器
-administator
+administrator
 密码:Kellyyk!(*#0425
 Kellyyk!(*#0425
 
+http://107.150.101.9:5100/billing.aspx?op=iab_validate&billing_type=22002&purchase_token=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45&service_access_id=10001&service_key=test&buy_date=2017-04-01&webIPandPort=127.0.0.1:11000&realToken=31ol_20170401_173146.420&price=1
+
+http://107.150.101.9:5100/billing.aspx?op=iab_validate&billing_type=22002&purchase_token=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45&service_access_id=10001&service_key=test&buy_date=2017-04-01&webIPandPort=127.0.0.1:11000&realToken=31ol_20170401_173146.420&price=0
 
 
+http://localhost/WebPlatform/billing.aspx?op=iab_validate&billing_type=22002&purchase_token=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45&service_access_id=10001&service_key=test&buy_date=2017-04-01&webIPandPort=127.0.0.1:11000&realToken=31ol_20170401_173146.420&price=1
 
+
+http://localhost/WebPlatform/billing.aspx?op=iab_validate&billing_type=22002&purchase_token=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45&service_access_id=10001&service_key=test&buy_date=2017-04-01&webIPandPort=127.0.0.1:11000&realToken=31ol_20170401_173146.420&price=0

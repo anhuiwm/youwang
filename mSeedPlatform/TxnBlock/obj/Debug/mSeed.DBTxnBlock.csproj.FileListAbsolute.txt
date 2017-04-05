@@ -11,3 +11,7 @@ D:\mywork\sg_server\mSeedPlatform\TxnBlock\bin\Debug\mSeedDBTxnBlock.dll
 D:\mywork\sg_server\mSeedPlatform\TxnBlock\bin\Debug\mSeedDBTxnBlock.pdb
 D:\mywork\sg_server\mSeedPlatform\TxnBlock\obj\Debug\mSeedDBTxnBlock.dll
 D:\mywork\sg_server\mSeedPlatform\TxnBlock\obj\Debug\mSeedDBTxnBlock.pdb
+D:\youwang\youwang\mSeedPlatform\TxnBlock\bin\Debug\mSeedDBTxnBlock.dll
+D:\youwang\youwang\mSeedPlatform\TxnBlock\bin\Debug\mSeedDBTxnBlock.pdb
+D:\youwang\youwang\mSeedPlatform\TxnBlock\obj\Debug\mSeedDBTxnBlock.dll
+D:\youwang\youwang\mSeedPlatform\TxnBlock\obj\Debug\mSeedDBTxnBlock.pdb

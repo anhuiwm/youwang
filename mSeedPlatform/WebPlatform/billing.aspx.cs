@@ -94,10 +94,19 @@ namespace WebPlatform
                         }
                         else if (billing_type == eBillingType.Global_iOS_MOL || billing_type == eBillingType.mfun_iOS_MOL)
                         {
+                            
+
                             string buydate = queryFetcher.QueryParam_Fetch("buy_date");
                             string webIPandPort = queryFetcher.QueryParam_Fetch("webIPandPort");
                             string realToken = queryFetcher.QueryParam_Fetch("realToken");
                             string price = queryFetcher.QueryParam_Fetch("price");
+                          
+                            mSeed.Common.mLogger.mLogger.Info("wmlog###start::billing_type=" + billing_type.ToString() + "&realToken=" + realToken + "&purchaseToken=" + purchaseToken + "&product_id=" + product_id);
+
+                            if( int.Parse(price) == 0)
+                            {
+                                mSeed.Common.mLogger.mLogger.Info("error price is 0!!!"); return;
+                            }
                             DateTime setDate;
                             if (!DateTime.TryParse(buydate, out setDate))
                                 setDate = DateTime.Now;

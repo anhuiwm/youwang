@@ -28,6 +28,8 @@ namespace mSeed.Common
                     request = (HttpWebRequest)WebRequest.Create(Url);
                     request.Method = "POST";    // 기본값 "GET"
                     request.ContentType = contentType;
+                    request.Timeout = 20000;
+                    request.ReadWriteTimeout = 20000;
 
                     // request param to byte array for IO stream
                     byte[] byteDataParams = UTF8Encoding.UTF8.GetBytes(dataParams);
@@ -43,6 +45,8 @@ namespace mSeed.Common
                     /* GET */
                     request = (HttpWebRequest)WebRequest.Create(Url + "?" + dataParams);
                     request.Method = "GET";
+                    request.Timeout = 20000;
+                    request.ReadWriteTimeout = 20000;
                 }
 
                 // 요청, 응답 받기
