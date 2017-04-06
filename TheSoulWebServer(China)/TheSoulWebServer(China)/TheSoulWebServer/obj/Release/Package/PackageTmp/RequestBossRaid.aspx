@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RequestBossRaid.aspx.cs" Inherits="TheSoulWebServer.RequestBossRaid" %>

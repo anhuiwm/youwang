@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="push.aspx.cs" Inherits="WebPlatform.push" %>

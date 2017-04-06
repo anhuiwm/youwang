@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="RevivalCharacter" Codebehind="RevivalCharacter.aspx.cs" %>

@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="SoulIllustratedReward" Codebehind="SoulIllustratedReward.aspx.cs" %>

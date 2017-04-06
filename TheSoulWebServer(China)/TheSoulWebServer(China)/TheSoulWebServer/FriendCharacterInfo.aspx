@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="FriendCharacterInfo" Codebehind="FriendCharacterInfo.aspx.cs" %>

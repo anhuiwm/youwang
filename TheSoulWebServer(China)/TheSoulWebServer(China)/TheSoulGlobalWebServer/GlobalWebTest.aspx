@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GlobalWebTest.aspx.cs" Inherits="TheSoulGlobalWebServer.GlobalWebTest" %>

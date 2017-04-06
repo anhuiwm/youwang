@@ -1,0 +1,125 @@
+[2017_04_01 04:39:20.248] [Debug (cache) : ["TXN [rollback] => [platform, 2.3805167]"]]
+[2017_04_01 04:39:20.875] [Debug (cache) : ["TXN [rollback] => [platform, 0.627279]"]]
+[2017_04_01 04:39:21.552] [Debug (user) : ["TXN [commit] => [platform, 3.6879048]"]]
+[2017_04_01 04:39:21.564] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"102","acc_token":"ya29.GlwgBFmmBmoNfrQ5cD4eDFP7Gx75_bH4bVEiIVjgvVRBWkQ_8f_xpZGMJz2Rl_FaL-LWyAHH9RduU1JRZyBiDM4wGqHTpNYV8PE_TbO0OHdUXF6ULbwiJb3gt8NH6Q","auth_token":"b4f052df077e14ea"}
+ReturnJson : {"platform_idx":525,"platform_user_id":"105299898084572328693","error":0}
+]
+[2017_04_01 04:40:12.461] [Debug (user) : ["TXN [commit] => [platform, 0.8016437]"]]
+[2017_04_01 04:40:12.461] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"101","acc_token":"26df9bfbdd4982eb833f08714609d597a8fbdc31f37a22bc9ad5f86b5b878187","auth_token":"f4625ab07ba749c091ba0387a0bb1702"}
+ReturnJson : {"platform_idx":554,"platform_user_id":"26df9bfbdd4982eb833f08714609d597a8fbdc31f37a22bc9ad5f86b5b878187","error":0}
+]
+[2017_04_01 04:49:21.747] [Debug (user) : ["TXN [commit] => [platform, 2.4765213]"]]
+[2017_04_01 04:49:21.747] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"101","acc_token":"692b6adfb6b31c692a3236e448401494429f8db4004cd4d80c00395c1a553fa3","auth_token":"1955b1c0e1c345a3b36ebd101f1756fc"}
+ReturnJson : {"platform_idx":681,"platform_user_id":"692b6adfb6b31c692a3236e448401494429f8db4004cd4d80c00395c1a553fa3","error":0}
+]
+[2017_04_01 04:57:10.703] [Debug (user) : ["TXN [commit] => [platform, 2.2827071]"]]
+[2017_04_01 04:57:10.704] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","auth_token":"a599517ad9f843e495c87819b4f6a63b"}
+ReturnJson : {"platform_idx":596,"platform_user_id":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","error":0}
+]
+[2017_04_01 05:04:30.202] [Debug (user) : ["TXN [commit] => [platform, 2.2165615]"]]
+[2017_04_01 05:04:30.202] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3ed7e5f548ad025c5b0b0b55a3232d8d72d","auth_token":"71a32997af4a4eb895f41ea1fe769ab0"}
+ReturnJson : {"platform_idx":662,"platform_user_id":"aa9244ec196b037b74e22e52af44d3ed7e5f548ad025c5b0b0b55a3232d8d72d","error":0}
+]
+[2017_04_01 05:05:15.603] [Debug (user) : ["TXN [commit] => [platform, 0.7171001]"]]
+[2017_04_01 05:05:15.603] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3ed7e5f548ad025c5b0b0b55a3232d8d72d","auth_token":"71a32997af4a4eb895f41ea1fe769ab0"}
+ReturnJson : {"platform_idx":662,"platform_user_id":"aa9244ec196b037b74e22e52af44d3ed7e5f548ad025c5b0b0b55a3232d8d72d","error":0}
+]
+[2017_04_01 05:05:53.673] [Debug (user) : ["TXN [commit] => [platform, 0.7177664]"]]
+[2017_04_01 05:05:53.673] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f","auth_token":"c777960f9165452ab8914814540111d6"}
+ReturnJson : {"platform_idx":5,"platform_user_id":"aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f","error":0}
+]
+[2017_04_01 05:09:10.682] [Debug (user) : ["TXN [commit] => [platform, 0.7169863]"]]
+[2017_04_01 05:09:10.682] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","auth_token":"a599517ad9f843e495c87819b4f6a63b"}
+ReturnJson : {"platform_idx":596,"platform_user_id":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","error":0}
+]
+[2017_04_01 05:09:47.918] [Debug (user) : ["TXN [commit] => [platform, 0.7160665]"]]
+[2017_04_01 05:09:47.918] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3ed7cfa7513ef59d69ca634d124e4c42606","auth_token":"97a695bc7d26459e97408b0442d8b82a"}
+ReturnJson : {"platform_idx":611,"platform_user_id":"aa9244ec196b037b74e22e52af44d3ed7cfa7513ef59d69ca634d124e4c42606","error":0}
+]
+[2017_04_01 05:09:50.221] [Debug (user) : ["TXN [commit] => [platform, 0.7151267]"]]
+[2017_04_01 05:09:50.222] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","auth_token":"a599517ad9f843e495c87819b4f6a63b"}
+ReturnJson : {"platform_idx":596,"platform_user_id":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","error":0}
+]
+[2017_04_01 05:11:12.308] [Debug (user) : ["TXN [commit] => [platform, 0.7163769]"]]
+[2017_04_01 05:11:12.308] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3ed7cfa7513ef59d69ca634d124e4c42606","auth_token":"97a695bc7d26459e97408b0442d8b82a"}
+ReturnJson : {"platform_idx":611,"platform_user_id":"aa9244ec196b037b74e22e52af44d3ed7cfa7513ef59d69ca634d124e4c42606","error":0}
+]
+[2017_04_01 05:23:17.767] [Debug (user) : ["TXN [commit] => [platform, 7.6528278]"]]
+[2017_04_01 05:23:17.767] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"101","acc_token":"75bca56c9a8f79425c5f10d9fb6510809cc0b8866738e02b1864dca52c129ced","auth_token":"593686e2bfb141868bfd088f189f02c7"}
+ReturnJson : {"platform_idx":658,"platform_user_id":"75bca56c9a8f79425c5f10d9fb6510809cc0b8866738e02b1864dca52c129ced","error":0}
+]
+[2017_04_01 05:23:49.725] [Debug (user) : ["TXN [commit] => [platform, 0.7261209]"]]
+[2017_04_01 05:23:49.725] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"101","acc_token":"75bca56c9a8f79425c5f10d9fb6510809cc0b8866738e02b1864dca52c129ced","auth_token":"593686e2bfb141868bfd088f189f02c7"}
+ReturnJson : {"platform_idx":658,"platform_user_id":"75bca56c9a8f79425c5f10d9fb6510809cc0b8866738e02b1864dca52c129ced","error":0}
+]
+[2017_04_01 05:31:34.100] [Debug (user) : ["TXN [commit] => [platform, 2.26368]"]]
+[2017_04_01 05:31:34.100] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3ed0bd28d6c079c88f208540441892d870f","auth_token":"31ff7da486bb42d1b2c98331d44d3172"}
+ReturnJson : {"platform_idx":625,"platform_user_id":"aa9244ec196b037b74e22e52af44d3ed0bd28d6c079c88f208540441892d870f","error":0}
+]
+[2017_04_01 05:31:36.426] [Debug (user) : ["TXN [commit] => [platform, 0.7379648]"]]
+[2017_04_01 05:31:36.426] [Debug () : RequestURL : /user.aspx
+RequestParam : {"op":"get_user_id","service_access_id":"10001","service_key":"test","platform_type":"100","acc_token":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","auth_token":"a599517ad9f843e495c87819b4f6a63b"}
+ReturnJson : {"platform_idx":596,"platform_user_id":"aa9244ec196b037b74e22e52af44d3edf4d8136bbbcd18730a285d46b7298fdd","error":0}
+]
+[2017_04_01 05:31:46.368] [Debug (cache) : ["TXN [rollback] => [platform, 0.5544395]"]]
+[2017_04_01 05:31:47.425] [Debug (cache) : ["TXN [rollback] => [platform, 1.0571674]"]]
+[2017_04_01 05:31:47.426] [Info (billing) : iOSMolIABVerify coming]
+[2017_04_01 05:31:48.362] [Info (billing) : retBody= {"paymentId":"MPO420978","referenceId":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","paymentUrl":"https://sandbox-global.mol.com/PaymentWall/Checkout/index?token=qipDtsNLDSJZ%2bFJC0SrVL0XYTz64HYuCwmwdUCINwsHJyO5pzC16E5LmrqwkqU4xmBX6esbO9rFXsGSlu0GtAC5HF3znsmFtXB6Y9l7m%2fSYantveTGWw659bPDWVK83Y%2bJiLSOhCvcolcIQoM%2b2A3QfkqRq4FQFg2uph%2fPs57gfkY%2bAoN8b8Jkde3keNNUrYqSViHQJIt%2fsX0Y7WRfrMvNYggslRJG3zrmjPCRIEcakz2YaWVAkoCuL%2fUbIZTVEUNuorJjjRIhgkRVKbEfR%2fUMMMbfJo8w4tcmjQ%2bQOSUQE%3d","amount":1,"currencyCode":"USD","version":"v1","signature":"0bd839bc758383e5aa56ebaddfc546df","applicationCode":"09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R"}]
+[2017_04_01 05:31:48.363] [Info (billing) : 返回的JSON{"paymentId":"MPO420978","referenceId":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","paymentUrl":"https://sandbox-global.mol.com/PaymentWall/Checkout/index?token=qipDtsNLDSJZ%2bFJC0SrVL0XYTz64HYuCwmwdUCINwsHJyO5pzC16E5LmrqwkqU4xmBX6esbO9rFXsGSlu0GtAC5HF3znsmFtXB6Y9l7m%2fSYantveTGWw659bPDWVK83Y%2bJiLSOhCvcolcIQoM%2b2A3QfkqRq4FQFg2uph%2fPs57gfkY%2bAoN8b8Jkde3keNNUrYqSViHQJIt%2fsX0Y7WRfrMvNYggslRJG3zrmjPCRIEcakz2YaWVAkoCuL%2fUbIZTVEUNuorJjjRIhgkRVKbEfR%2fUMMMbfJo8w4tcmjQ%2bQOSUQE%3d","amount":1,"currencyCode":"USD","version":"v1","signature":"0bd839bc758383e5aa56ebaddfc546df","applicationCode":"09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R"}]
+[2017_04_01 05:31:48.367] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173146.420","price":"1"}
+ReturnJson : {"paymentId":"MPO420978","referenceId":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","paymentUrl":"https://sandbox-global.mol.com/PaymentWall/Checkout/index?token=qipDtsNLDSJZ%2bFJC0SrVL0XYTz64HYuCwmwdUCINwsHJyO5pzC16E5LmrqwkqU4xmBX6esbO9rFXsGSlu0GtAC5HF3znsmFtXB6Y9l7m%2fSYantveTGWw659bPDWVK83Y%2bJiLSOhCvcolcIQoM%2b2A3QfkqRq4FQFg2uph%2fPs57gfkY%2bAoN8b8Jkde3keNNUrYqSViHQJIt%2fsX0Y7WRfrMvNYggslRJG3zrmjPCRIEcakz2YaWVAkoCuL%2fUbIZTVEUNuorJjjRIhgkRVKbEfR%2fUMMMbfJo8w4tcmjQ%2bQOSUQE%3d","amount":1,"currencyCode":"USD","version":"v1","signature":"0bd839bc758383e5aa56ebaddfc546df","applicationCode":"09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R","error":0}
+]
+[2017_04_01 05:31:58.471] [Info (billing) : iOSMolPinIABVerify coming]
+[2017_04_01 05:31:58.819] [Info (billing) : retBody= {"paymentId":"MPO420979","referenceId":"4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24","paymentUrl":"https://sandbox-global.mol.com/PaymentWall/Checkout/index?token=qipDtsNLDSJZ%2bFJC0SrVL0XYTz64HYuCwmwdUCINwsHJyO5pzC16E5LmrqwkqU4xvo1qfuKqeRe4a%2fyRLMl1ycS6sz%2bFmkyae3Lfsd8z%2buamOYC4%2fclWcG2HX6RHqGbYsJoB4L%2fvuUKEEXgxldQImPTN4DvOlqAx2B9z79UGPdsIM69uaax4soC5ElEG0WlmhXAsRfEAZjfSGFQYRwgBDim7ceZLEUCsz3QkydrZJHZtX69RYllP%2fb%2fn1RGaExDreP%2bNu4viK8JkcLWhPUjPnqBqMDBJgz8F","amount":0,"currencyCode":"","version":"v1","signature":"426ca989e78295c2b24b4a4f5e9f1aa9","applicationCode":"09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R"}]
+[2017_04_01 05:31:58.819] [Info (billing) : 返回的JSON{"paymentId":"MPO420979","referenceId":"4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24","paymentUrl":"https://sandbox-global.mol.com/PaymentWall/Checkout/index?token=qipDtsNLDSJZ%2bFJC0SrVL0XYTz64HYuCwmwdUCINwsHJyO5pzC16E5LmrqwkqU4xvo1qfuKqeRe4a%2fyRLMl1ycS6sz%2bFmkyae3Lfsd8z%2buamOYC4%2fclWcG2HX6RHqGbYsJoB4L%2fvuUKEEXgxldQImPTN4DvOlqAx2B9z79UGPdsIM69uaax4soC5ElEG0WlmhXAsRfEAZjfSGFQYRwgBDim7ceZLEUCsz3QkydrZJHZtX69RYllP%2fb%2fn1RGaExDreP%2bNu4viK8JkcLWhPUjPnqBqMDBJgz8F","amount":0,"currencyCode":"","version":"v1","signature":"426ca989e78295c2b24b4a4f5e9f1aa9","applicationCode":"09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R"}]
+[2017_04_01 05:31:58.819] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22004","purchase_token":"4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173159.138","price":"1"}
+ReturnJson : {"paymentId":"MPO420979","referenceId":"4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24","paymentUrl":"https://sandbox-global.mol.com/PaymentWall/Checkout/index?token=qipDtsNLDSJZ%2bFJC0SrVL0XYTz64HYuCwmwdUCINwsHJyO5pzC16E5LmrqwkqU4xvo1qfuKqeRe4a%2fyRLMl1ycS6sz%2bFmkyae3Lfsd8z%2buamOYC4%2fclWcG2HX6RHqGbYsJoB4L%2fvuUKEEXgxldQImPTN4DvOlqAx2B9z79UGPdsIM69uaax4soC5ElEG0WlmhXAsRfEAZjfSGFQYRwgBDim7ceZLEUCsz3QkydrZJHZtX69RYllP%2fb%2fn1RGaExDreP%2bNu4viK8JkcLWhPUjPnqBqMDBJgz8F","amount":0,"currencyCode":"","version":"v1","signature":"426ca989e78295c2b24b4a4f5e9f1aa9","applicationCode":"09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R","error":0}
+]
+[2017_04_01 05:32:45.856] [Info (billing) : iOSMolIABVerify coming]
+[2017_04_01 05:32:46.208] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_01 05:32:46.208] [Info (billing) : retBody= ]
+[2017_04_01 05:32:46.208] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_01 05:32:46.208] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173146.420","price":"0"}
+ReturnJson : {"error":901}
+]
+[2017_04_01 05:32:58.536] [Info (billing) : iOSMolPinIABVerify coming]
+[2017_04_01 05:32:58.880] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_01 05:32:58.880] [Info (billing) : retBody= ]
+[2017_04_01 05:32:58.880] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_01 05:32:58.880] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22004","purchase_token":"4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173159.138","price":"0"}
+ReturnJson : {"error":901}
+]
+[2017_04_01 05:33:45.968] [Info (billing) : iOSMolIABVerify coming]
+[2017_04_01 05:33:46.315] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_01 05:33:46.315] [Info (billing) : retBody= ]
+[2017_04_01 05:33:46.315] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_01 05:33:46.315] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173146.420","price":"0"}
+ReturnJson : {"error":901}
+]
+[2017_04_01 05:33:58.663] [Info (billing) : iOSMolPinIABVerify coming]
+[2017_04_01 05:33:59.007] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_01 05:33:59.007] [Info (billing) : retBody= ]
+[2017_04_01 05:33:59.007] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_01 05:33:59.007] [Debug () : RequestURL : /billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22004","purchase_token":"4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173159.138","price":"0"}
+ReturnJson : {"error":901}
+]

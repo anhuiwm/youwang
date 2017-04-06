@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RequestFriendsGlobal.aspx.cs" Inherits="TheSoulWebServer.RequestFriendsGlobal" %>

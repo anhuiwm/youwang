@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FacebookFriendsSendKey.aspx.cs" Inherits="FacebookFriendsSendKey" %>

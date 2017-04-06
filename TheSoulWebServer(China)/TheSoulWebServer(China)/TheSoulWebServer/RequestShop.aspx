@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RequestShop.aspx.cs" Inherits="TheSoulWebServer.RequestShop" %>

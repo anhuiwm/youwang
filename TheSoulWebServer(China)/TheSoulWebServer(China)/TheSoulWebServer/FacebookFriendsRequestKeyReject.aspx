@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FacebookFriendsRequestKeyReject.aspx.cs" Inherits="FacebookFriendsRequestKeyReject" %>

@@ -1,8 +1,0 @@
-
-----------------------header--------------------------
-2017-03-29 00:01:11,712 [7] INFO  WebLogger - str:/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
-
-----------------------header--------------------------
-2017-03-29 00:07:41,772 [5] INFO  WebLogger - req:/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
-2017-03-29 00:07:42,570 [5] INFO  WebLogger - requestOp:buy_billing_cash&AID:5
-2017-03-29 00:07:42,771 [5] INFO  WebLogger - resp:{"operation":"buy_billing_cash","resultcode":1499,"result":0}

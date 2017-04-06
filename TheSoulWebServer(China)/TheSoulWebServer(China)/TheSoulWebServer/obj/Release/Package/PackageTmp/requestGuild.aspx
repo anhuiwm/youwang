@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="requestGuild.aspx.cs" Inherits="TheSoulWebServer.requestGuild" %>
