@@ -1,0 +1,8 @@
+###Could not resolve host: sandbox.api.mol.com
+{"message":"(40102): Unauthorized Server IP address. 112.65.211.103"}###
+{"message":"(40101): Invalid ApplicationCode."}###
+###Failed to connect to api.mol.com port 443: Timed out
+{"message":"(40102): Unauthorized Server IP address. 112.65.211.97"}###
+{"message":"(40102): Unauthorized Server IP address. 112.65.211.103"}###
+###Failed to connect to api.mol.com port 443: Timed out
+{"message":"(40101): Invalid ApplicationCode."}###

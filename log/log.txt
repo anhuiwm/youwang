@@ -1,8 +1,0 @@
-GameServer->Platform 
-D:\Server\PVPServer\server\GameServer\log  GameServer_0401_172949.log
-
-Platform
-D:\thesoul\Platform_Web\log   platform_log_20170401_2.txt
-
-D:\mywork\sg_server\TheSoulPVPServerINTL\GameServer 
-cInstanceOLEDBParser.cpp 4313
