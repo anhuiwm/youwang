@@ -1,0 +1,54 @@
+﻿
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+        body{background:#fff}
+        a {color:#333;text-decoration:none} a:active, a:hover {text-decoration:none}
+        body,th,td,input,select,textarea,button{font-size:15px;line-height:1.5;font-family:'Malgun Gothic','맑은 고딕',sans-serif;color:#444}
+        ul {list-style: none;}
+        .gnb_comm{overflow:hidden;text-align:center; width:100%;}
+        .gnb_comm li{float:left;width:33.3%}/* 2015-11-26 수정 */
+        .gnb_comm .link_menu{display:block;padding-top:2px;height:70px;font-weight:bold;font-size:1.7em;line-height:70px;background-color:#4d89ef;text-align:center;color:#fff;letter-spacing:-1px}/* 2015-11-26 수정 */
+        .gnb_comm .on .link_menu{background-color:#2565d0}
+    </style>
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript">
+        // iframe resize
+        function autoResize(i) {
+            $("#clause").height(i+50);
+        }
+        $(document).ready(function() {
+            var $li = $('#menu li').click(function () {
+                $li.removeClass('on');
+                $(this).addClass('on');
+            });
+        });
+       
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <ul class="gnb_comm" id="menu">
+                <li class="on"><a href="clause1.html" target="clause" class="link_menu">이용약관</a></li>
+                <li class=""><a href="clause2.html" target="clause" class="link_menu">개인정보취급방침</a></li>
+                <li class=""><a href="clause3.html" target="clause" class="link_menu">운영정책</a></li>
+            </ul>
+        </div>
+        <div id="contents" style="text-align: center;">
+            <iframe name="clause" id="clause" src="clause1.html" width="90%" style="border: 0px none;" scrolling="yes"></iframe>
+        </div>
+    </div>
+</body>
+</html>

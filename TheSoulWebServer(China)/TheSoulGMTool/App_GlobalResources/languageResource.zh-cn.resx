@@ -1,0 +1,1269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lang1vs1BousTime" xml:space="preserve">
+    <value>巅峰竞技场双倍时间</value>
+  </data>
+  <data name="lang1vs1OpenTiem" xml:space="preserve">
+    <value>巅峰竞技场开放时间</value>
+  </data>
+  <data name="langslotID1" xml:space="preserve">
+    <value>黑市专属武魂</value>
+  </data>
+  <data name="langslotID2" xml:space="preserve">
+    <value>随机武魂</value>
+  </data>
+  <data name="langslotID3" xml:space="preserve">
+    <value>材料栏1</value>
+  </data>
+  <data name="langslotID4" xml:space="preserve">
+    <value>材料栏2</value>
+  </data>
+  <data name="langslotID5" xml:space="preserve">
+    <value>武魂装备</value>
+  </data>
+  <data name="lang_1vs1PVP" xml:space="preserve">
+    <value>巅峰竞技场</value>
+  </data>
+  <data name="lang_1yuanReward" xml:space="preserve">
+    <value>1元礼包</value>
+  </data>
+  <data name="lang_3yuanReward" xml:space="preserve">
+    <value>3元礼包</value>
+  </data>
+  <data name="lang_achieve" xml:space="preserve">
+    <value>成就</value>
+  </data>
+  <data name="lang_achieveName" xml:space="preserve">
+    <value>成就名称</value>
+  </data>
+  <data name="lang_achieveType1" xml:space="preserve">
+    <value>每日任务</value>
+  </data>
+  <data name="lang_achieveType2" xml:space="preserve">
+    <value>主线任务</value>
+  </data>
+  <data name="lang_achievID" xml:space="preserve">
+    <value>成就编号</value>
+  </data>
+  <data name="lang_acquire" xml:space="preserve">
+    <value>获得</value>
+  </data>
+  <data name="lang_active" xml:space="preserve">
+    <value>主动的</value>
+  </data>
+  <data name="lang_active_trigger" xml:space="preserve">
+    <value>开始的触发器</value>
+  </data>
+  <data name="lang_active_trigger_value" xml:space="preserve">
+    <value>开始的触发器的值</value>
+  </data>
+  <data name="lang_afterCount" xml:space="preserve">
+    <value>剩余量</value>
+  </data>
+  <data name="lang_all" xml:space="preserve">
+    <value>共同</value>
+  </data>
+  <data name="lang_allItem" xml:space="preserve">
+    <value>共同道具</value>
+  </data>
+  <data name="lang_allReward" xml:space="preserve">
+    <value>共同奖励</value>
+  </data>
+  <data name="lang_amount" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="lang_apply" xml:space="preserve">
+    <value>适用</value>
+  </data>
+  <data name="lang_auth" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="lang_auto_orderNum" xml:space="preserve">
+    <value>顺序自动生成</value>
+  </data>
+  <data name="lang_baseRuby" xml:space="preserve">
+    <value>基本红宝石</value>
+  </data>
+  <data name="lang_Battlepoint" xml:space="preserve">
+    <value>对战点数</value>
+  </data>
+  <data name="lang_beforeCount" xml:space="preserve">
+    <value>当前剩余量</value>
+  </data>
+  <data name="lang_beforeData" xml:space="preserve">
+    <value>变更前</value>
+  </data>
+  <data name="lang_bestGacha" xml:space="preserve">
+    <value>顶级抽包</value>
+  </data>
+  <data name="lang_blackmarket" xml:space="preserve">
+    <value>黑市</value>
+  </data>
+  <data name="lang_BlackMarketPoint" xml:space="preserve">
+    <value>黑市点数</value>
+  </data>
+  <data name="lang_blue" xml:space="preserve">
+    <value>蓝</value>
+  </data>
+  <data name="lang_bonusTime" xml:space="preserve">
+    <value>奖励时间</value>
+  </data>
+  <data name="lang_bossraid" xml:space="preserve">
+    <value>名将来袭</value>
+  </data>
+  <data name="lang_bousRuby" xml:space="preserve">
+    <value>红宝石奖励</value>
+  </data>
+  <data name="lang_btn_add" xml:space="preserve">
+    <value>补签</value>
+  </data>
+  <data name="lang_btn_cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="lang_btn_delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="lang_btn_insert" xml:space="preserve">
+    <value>发布</value>
+  </data>
+  <data name="lang_btn_manage" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="lang_btn_ok" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="lang_btn_search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="lang_btn_update" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="lang_buyInit" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="lang_BuyOnceSale" xml:space="preserve">
+    <value>BuyOnceSale</value>
+  </data>
+  <data name="lang_buyPrice" xml:space="preserve">
+    <value>购买价格</value>
+  </data>
+  <data name="lang_cash" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="lang_cashAndEventcash" xml:space="preserve">
+    <value>钻石(付费/免费)</value>
+  </data>
+  <data name="lang_change" xml:space="preserve">
+    <value>变更</value>
+  </data>
+  <data name="lang_changeData" xml:space="preserve">
+    <value>变更数据</value>
+  </data>
+  <data name="lang_character" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="lang_characterRanking" xml:space="preserve">
+    <value>战斗力</value>
+  </data>
+  <data name="lang_charged" xml:space="preserve">
+    <value>收费</value>
+  </data>
+  <data name="lang_chargeType" xml:space="preserve">
+    <value>充值种类</value>
+  </data>
+  <data name="lang_chatLift" xml:space="preserve">
+    <value>解除禁止聊天</value>
+  </data>
+  <data name="lang_chatRestrict" xml:space="preserve">
+    <value>禁止聊天解除日</value>
+  </data>
+  <data name="lang_chat_restrict" xml:space="preserve">
+    <value>禁止聊天</value>
+  </data>
+  <data name="lang_clearCondition" xml:space="preserve">
+    <value>通关条件</value>
+  </data>
+  <data name="lang_clear_trigger" xml:space="preserve">
+    <value>结束的触发器</value>
+  </data>
+  <data name="lang_clear_trigger_value" xml:space="preserve">
+    <value>结束的触发器的值</value>
+  </data>
+  <data name="lang_close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="lang_connectDate" xml:space="preserve">
+    <value>登录日</value>
+  </data>
+  <data name="lang_contents" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="lang_content_type" xml:space="preserve">
+    <value>玩法种类</value>
+  </data>
+  <data name="lang_continue" xml:space="preserve">
+    <value>未完待续</value>
+  </data>
+  <data name="lang_controldate" xml:space="preserve">
+    <value>操作日</value>
+  </data>
+  <data name="lang_controlID" xml:space="preserve">
+    <value>操作账号</value>
+  </data>
+  <data name="lang_controlpattern" xml:space="preserve">
+    <value>操作类型</value>
+  </data>
+  <data name="lang_controlServer" xml:space="preserve">
+    <value>操作服务器</value>
+  </data>
+  <data name="lang_controlType" xml:space="preserve">
+    <value>操作种类</value>
+  </data>
+  <data name="lang_count" xml:space="preserve">
+    <value>个数</value>
+  </data>
+  <data name="lang_CP" xml:space="preserve">
+    <value>暴击伤害</value>
+  </data>
+  <data name="lang_CPR" xml:space="preserve">
+    <value>暴击率</value>
+  </data>
+  <data name="lang_creationdate" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="lang_dailyActive" xml:space="preserve">
+    <value>签到被启动与否</value>
+  </data>
+  <data name="lang_dailyCount" xml:space="preserve">
+    <value>可补签的日期</value>
+  </data>
+  <data name="lang_dailyDate" xml:space="preserve">
+    <value>福利卡期限</value>
+  </data>
+  <data name="lang_dailyEventType" xml:space="preserve">
+    <value>签到活动的种类</value>
+  </data>
+  <data name="lang_dailyNeedRuby" xml:space="preserve">
+    <value>补签需要的红宝石</value>
+  </data>
+  <data name="lang_dailyReward" xml:space="preserve">
+    <value>签到奖励</value>
+  </data>
+  <data name="lang_day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="lang_DCR" xml:space="preserve">
+    <value>减少暴击伤害</value>
+  </data>
+  <data name="lang_DelCharater" xml:space="preserve">
+    <value>账号连接中断</value>
+  </data>
+  <data name="lang_deleteDate" xml:space="preserve">
+    <value>删除日</value>
+  </data>
+  <data name="lang_Department" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="lang_detail" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="lang_details" xml:space="preserve">
+    <value>상세</value>
+  </data>
+  <data name="lang_detailTootip" xml:space="preserve">
+    <value>详细说明</value>
+  </data>
+  <data name="lang_DiscountSale" xml:space="preserve">
+    <value>限时优惠</value>
+  </data>
+  <data name="lang_displayTerm" xml:space="preserve">
+    <value>显示的间隙</value>
+  </data>
+  <data name="lang_division" xml:space="preserve">
+    <value>区分</value>
+  </data>
+  <data name="lang_Donationpoint" xml:space="preserve">
+    <value>贡献点</value>
+  </data>
+  <data name="lang_dp" xml:space="preserve">
+    <value>防御力</value>
+  </data>
+  <data name="lang_dungeonOpen" xml:space="preserve">
+    <value>剧情副本开启</value>
+  </data>
+  <data name="lang_editDate" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+  <data name="lang_editGM" xml:space="preserve">
+    <value>修改人</value>
+  </data>
+  <data name="lang_Email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="lang_enddate" xml:space="preserve">
+    <value>终止日、时</value>
+  </data>
+  <data name="lang_endday" xml:space="preserve">
+    <value>终止日</value>
+  </data>
+  <data name="lang_enPoint" xml:space="preserve">
+    <value>点数</value>
+  </data>
+  <data name="lang_equipCharacter" xml:space="preserve">
+    <value>装备的角色</value>
+  </data>
+  <data name="lang_equipitem" xml:space="preserve">
+    <value>装备道具</value>
+  </data>
+  <data name="lang_equipSoul" xml:space="preserve">
+    <value>装备魂</value>
+  </data>
+  <data name="lang_evenNumer" xml:space="preserve">
+    <value>双</value>
+  </data>
+  <data name="lang_event" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="lang_EventDay" xml:space="preserve">
+    <value>活动日期</value>
+  </data>
+  <data name="lang_eventGroup" xml:space="preserve">
+    <value>活动题目种类</value>
+  </data>
+  <data name="lang_eventgroup2" xml:space="preserve">
+    <value>活动种类</value>
+  </data>
+  <data name="lang_eventName" xml:space="preserve">
+    <value>活动名</value>
+  </data>
+  <data name="lang_eventPeriod" xml:space="preserve">
+    <value>活动期间</value>
+  </data>
+  <data name="lang_eventTitle" xml:space="preserve">
+    <value>活动题目</value>
+  </data>
+  <data name="lang_eventType" xml:space="preserve">
+    <value>活动类型</value>
+  </data>
+  <data name="lang_excel" xml:space="preserve">
+    <value>excel储存</value>
+  </data>
+  <data name="lang_exp" xml:space="preserve">
+    <value>经验值</value>
+  </data>
+  <data name="lang_expedition" xml:space="preserve">
+    <value>远征</value>
+  </data>
+  <data name="lang_expeditionMacting" xml:space="preserve">
+    <value>远征匹配平衡</value>
+  </data>
+  <data name="lang_Expeditionpoint" xml:space="preserve">
+    <value>远征点数</value>
+  </data>
+  <data name="lang_expireDate" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="lang_fileItemCharge" xml:space="preserve">
+    <value>物品发放</value>
+  </data>
+  <data name="lang_firday" xml:space="preserve">
+    <value>周五</value>
+  </data>
+  <data name="lang_firstPay" xml:space="preserve">
+    <value>首冲</value>
+  </data>
+  <data name="lang_free" xml:space="preserve">
+    <value>免费</value>
+  </data>
+  <data name="lang_freePVP" xml:space="preserve">
+    <value>乱战</value>
+  </data>
+  <data name="lang_gachaCash" xml:space="preserve">
+    <value>启用抽包</value>
+  </data>
+  <data name="lang_gachaRate" xml:space="preserve">
+    <value>抽包概率</value>
+  </data>
+  <data name="lang_gift" xml:space="preserve">
+    <value>礼物</value>
+  </data>
+  <data name="lang_giftGroup" xml:space="preserve">
+    <value>礼物的目录种类</value>
+  </data>
+  <data name="lang_giftGroup2" xml:space="preserve">
+    <value>礼物的种类</value>
+  </data>
+  <data name="lang_gladiator" xml:space="preserve">
+    <value>角斗士的战场</value>
+  </data>
+  <data name="lang_Gm" xml:space="preserve">
+    <value>运营人</value>
+  </data>
+  <data name="lang_GMLogin" xml:space="preserve">
+    <value>运营方登录</value>
+  </data>
+  <data name="lang_GMName" xml:space="preserve">
+    <value>运营人的名称</value>
+  </data>
+  <data name="lang_GMUseCheck" xml:space="preserve">
+    <value>确认使用登录</value>
+  </data>
+  <data name="lang_gmUsing" xml:space="preserve">
+    <value>打勾后可使用账号</value>
+  </data>
+  <data name="lang_gold" xml:space="preserve">
+    <value>金币</value>
+  </data>
+  <data name="lang_goodsType" xml:space="preserve">
+    <value>货币类型</value>
+  </data>
+  <data name="lang_grade" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="lang_green" xml:space="preserve">
+    <value>绿</value>
+  </data>
+  <data name="lang_group" xml:space="preserve">
+    <value>分类</value>
+  </data>
+  <data name="lang_guild" xml:space="preserve">
+    <value>公会</value>
+  </data>
+  <data name="lang_guildBanishment" xml:space="preserve">
+    <value>踢出公会</value>
+  </data>
+  <data name="lang_guildDisperse" xml:space="preserve">
+    <value>解散公会</value>
+  </data>
+  <data name="lang_guildEntrust" xml:space="preserve">
+    <value>委任会长</value>
+  </data>
+  <data name="lang_guildJoinerCount" xml:space="preserve">
+    <value>公会成员数</value>
+  </data>
+  <data name="lang_guildLeader" xml:space="preserve">
+    <value>公会会长</value>
+  </data>
+  <data name="lang_guildMember" xml:space="preserve">
+    <value>公会成员</value>
+  </data>
+  <data name="lang_guildName" xml:space="preserve">
+    <value>公会名</value>
+  </data>
+  <data name="lang_guildWar" xml:space="preserve">
+    <value>公会战</value>
+  </data>
+  <data name="lang_guilJoinerDelete" xml:space="preserve">
+    <value>强行删除公会成员</value>
+  </data>
+  <data name="lang_Honorpoint" xml:space="preserve">
+    <value>荣誉点数</value>
+  </data>
+  <data name="lang_hp" xml:space="preserve">
+    <value>生命值</value>
+  </data>
+  <data name="lang_imaginepay" xml:space="preserve">
+    <value>模拟结算</value>
+  </data>
+  <data name="lang_init" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="lang_initMsg" xml:space="preserve">
+    <value>购买已重置</value>
+  </data>
+  <data name="lang_isActive" xml:space="preserve">
+    <value>是否被启动</value>
+  </data>
+  <data name="lang_isData" xml:space="preserve">
+    <value>现在的数据</value>
+  </data>
+  <data name="lang_Item" xml:space="preserve">
+    <value>道具</value>
+  </data>
+  <data name="lang_ItemID" xml:space="preserve">
+    <value>商品ID</value>
+  </data>
+  <data name="lang_ItemName" xml:space="preserve">
+    <value>商品名称</value>
+  </data>
+  <data name="lang_itemProb" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="lang_key" xml:space="preserve">
+    <value>钥匙</value>
+  </data>
+  <data name="lang_kind" xml:space="preserve">
+    <value>种类</value>
+  </data>
+  <data name="lang_level" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="lang_lift" xml:space="preserve">
+    <value>解除</value>
+  </data>
+  <data name="lang_lineDelete" xml:space="preserve">
+    <value>删除公告</value>
+  </data>
+  <data name="lang_lineInsert" xml:space="preserve">
+    <value>发布公告</value>
+  </data>
+  <data name="lang_lineMsg" xml:space="preserve">
+    <value>可设置的最大间隔时间是5分钟</value>
+  </data>
+  <data name="lang_lineUpdate" xml:space="preserve">
+    <value>修改公告</value>
+  </data>
+  <data name="lang_list" xml:space="preserve">
+    <value>名单</value>
+  </data>
+  <data name="lang_logCS" xml:space="preserve">
+    <value>CS Log Level</value>
+  </data>
+  <data name="lang_logDate" xml:space="preserve">
+    <value>日志适用结束日</value>
+  </data>
+  <data name="lang_loginLift" xml:space="preserve">
+    <value>解除禁止登录</value>
+  </data>
+  <data name="lang_loginMsg" xml:space="preserve">
+    <value>没有权限登录</value>
+  </data>
+  <data name="lang_loginRestrict" xml:space="preserve">
+    <value>登录限制结束日</value>
+  </data>
+  <data name="lang_login_restrict" xml:space="preserve">
+    <value>禁止登录</value>
+  </data>
+  <data name="lang_logLevel" xml:space="preserve">
+    <value>日志等级</value>
+  </data>
+  <data name="lang_loop" xml:space="preserve">
+    <value>反复周期</value>
+  </data>
+  <data name="lang_loop_state" xml:space="preserve">
+    <value>是否反复</value>
+  </data>
+  <data name="lang_loop_type" xml:space="preserve">
+    <value>反复种类</value>
+  </data>
+  <data name="lang_mailType" xml:space="preserve">
+    <value>邮件分类</value>
+  </data>
+  <data name="lang_mailType1" xml:space="preserve">
+    <value>邮件公告</value>
+  </data>
+  <data name="lang_mailType2" xml:space="preserve">
+    <value>支付道具</value>
+  </data>
+  <data name="lang_mainSoul" xml:space="preserve">
+    <value>代表性热门武魂</value>
+  </data>
+  <data name="lang_mark" xml:space="preserve">
+    <value>标记</value>
+  </data>
+  <data name="lang_maxAP" xml:space="preserve">
+    <value>最大攻击力</value>
+  </data>
+  <data name="lang_maxbuycount" xml:space="preserve">
+    <value>最大购买量</value>
+  </data>
+  <data name="lang_maxValue" xml:space="preserve">
+    <value>最大数量</value>
+  </data>
+  <data name="lang_mgsTriggerClearValue" xml:space="preserve">
+    <value>进行值不能大于清算值</value>
+  </data>
+  <data name="lang_minAP" xml:space="preserve">
+    <value>最小攻击力</value>
+  </data>
+  <data name="lang_minValue" xml:space="preserve">
+    <value>最少数量</value>
+  </data>
+  <data name="lang_mission" xml:space="preserve">
+    <value>剧情模式</value>
+  </data>
+  <data name="lang_missionProgress" xml:space="preserve">
+    <value>修改剧情模式的进行状况</value>
+  </data>
+  <data name="lang_monday" xml:space="preserve">
+    <value>周一</value>
+  </data>
+  <data name="lang_month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="lang_mp" xml:space="preserve">
+    <value>精神力</value>
+  </data>
+  <data name="lang_msgAllLogout" xml:space="preserve">
+    <value>将所选服务器在线玩家踢下线。\n确定要进行吗?</value>
+  </data>
+  <data name="lang_msgCheapEdit" xml:space="preserve">
+    <value>正在进行中，请在结束后进行修改</value>
+  </data>
+  <data name="lang_msgCheapMinCount" xml:space="preserve">
+    <value>需要登录1个以上的奖励</value>
+  </data>
+  <data name="lang_msgDataneed" xml:space="preserve">
+    <value>请输入数据</value>
+  </data>
+  <data name="lang_msgDeleteItemCount" xml:space="preserve">
+    <value>减少的物品数量请再次确认</value>
+  </data>
+  <data name="lang_msgDoubleClick" xml:space="preserve">
+    <value>正在处理中, 请稍等</value>
+  </data>
+  <data name="lang_msgErrorMseed" xml:space="preserve">
+    <value>请联系开发商</value>
+  </data>
+  <data name="lang_msgErrorSnail" xml:space="preserve">
+    <value>请联系Snail</value>
+  </data>
+  <data name="lang_msgEventIDEdit" xml:space="preserve">
+    <value>确认修改活动ID吗？</value>
+  </data>
+  <data name="lang_msgEventReg" xml:space="preserve">
+    <value>确认要登录活动吗？</value>
+  </data>
+  <data name="lang_MsgExcelDate" xml:space="preserve">
+    <value>请您设置期限</value>
+  </data>
+  <data name="lang_MsgFail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="lang_msgGroupMail" xml:space="preserve">
+    <value>* 可适用存储为UTF-8的TXT 文档</value>
+  </data>
+  <data name="lang_MsgInputID" xml:space="preserve">
+    <value>请输入ID</value>
+  </data>
+  <data name="lang_MsgInputMail" xml:space="preserve">
+    <value>请输入email</value>
+  </data>
+  <data name="lang_MsgInputName" xml:space="preserve">
+    <value>请输入名称</value>
+  </data>
+  <data name="lang_MsgInputTel" xml:space="preserve">
+    <value>请输入联络地</value>
+  </data>
+  <data name="lang_MsgmaxData" xml:space="preserve">
+    <value>最大能输入到n</value>
+  </data>
+  <data name="lang_Msgmindata" xml:space="preserve">
+    <value>最小能输入到n</value>
+  </data>
+  <data name="lang_MsgOneMorePass" xml:space="preserve">
+    <value>请再次输入密码</value>
+  </data>
+  <data name="lang_MsgOnlyNumber" xml:space="preserve">
+    <value>只能输入数字</value>
+  </data>
+  <data name="lang_MsgPass" xml:space="preserve">
+    <value>请输入密码</value>
+  </data>
+  <data name="lang_MsgPassWrong" xml:space="preserve">
+    <value>密码错误</value>
+  </data>
+  <data name="lang_msgSearch15Day" xml:space="preserve">
+    <value>只能搜索15日之内的资料</value>
+  </data>
+  <data name="lang_msgSeverChangeError1" xml:space="preserve">
+    <value>只能在运营工具里更改的服务器</value>
+  </data>
+  <data name="lang_msgSeverChangeError2" xml:space="preserve">
+    <value>无法更改服务器状态</value>
+  </data>
+  <data name="lang_msgShopError" xml:space="preserve">
+    <value>模拟结算失败</value>
+  </data>
+  <data name="lang_msgShopID" xml:space="preserve">
+    <value>请您确认商品ID</value>
+  </data>
+  <data name="lang_msgShopOk" xml:space="preserve">
+    <value>模拟结算成功</value>
+  </data>
+  <data name="lang_MsgSuccse" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="lang_MsgUserNotFound" xml:space="preserve">
+    <value>该玩家不存在</value>
+  </data>
+  <data name="lang_msg_gachaCount" xml:space="preserve">
+    <value>最少要装备4个武魂</value>
+  </data>
+  <data name="lang_msg_gachaDate" xml:space="preserve">
+    <value>请重新确认时间段</value>
+  </data>
+  <data name="lang_msg_gachaPrice" xml:space="preserve">
+    <value>没有输入费用或数量</value>
+  </data>
+  <data name="lang_msg_gachaSoul" xml:space="preserve">
+    <value>要指定代表性的热门武魂和一般武魂</value>
+  </data>
+  <data name="lang_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="lang_none" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="lang_notapply" xml:space="preserve">
+    <value>未适用</value>
+  </data>
+  <data name="lang_noticeDate" xml:space="preserve">
+    <value>公告期限</value>
+  </data>
+  <data name="lang_noticeDelete" xml:space="preserve">
+    <value>删除公告</value>
+  </data>
+  <data name="lang_noticeEnd" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="lang_noticeIng" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="lang_noticeInsert" xml:space="preserve">
+    <value>发布公告</value>
+  </data>
+  <data name="lang_noticeTag" xml:space="preserve">
+    <value>公告标题</value>
+  </data>
+  <data name="lang_noticeType" xml:space="preserve">
+    <value>公告种类</value>
+  </data>
+  <data name="lang_noticeUpdate" xml:space="preserve">
+    <value>修改公告</value>
+  </data>
+  <data name="lang_noticeWait" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="lang_notUse" xml:space="preserve">
+    <value>未使用</value>
+  </data>
+  <data name="lang_oddNumber" xml:space="preserve">
+    <value>单数</value>
+  </data>
+  <data name="lang_off" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="lang_on" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="lang_oneCount" xml:space="preserve">
+    <value>1次</value>
+  </data>
+  <data name="lang_openDay" xml:space="preserve">
+    <value>开放日期</value>
+  </data>
+  <data name="lang_openTime" xml:space="preserve">
+    <value>开放时间</value>
+  </data>
+  <data name="lang_openTimeEdit" xml:space="preserve">
+    <value>修改开放时间</value>
+  </data>
+  <data name="lang_orange" xml:space="preserve">
+    <value>橙</value>
+  </data>
+  <data name="lang_orderNum" xml:space="preserve">
+    <value>订单号</value>
+  </data>
+  <data name="lang_overload" xml:space="preserve">
+    <value>排行榜竞技场</value>
+  </data>
+  <data name="lang_OverLoadPoint" xml:space="preserve">
+    <value>排行榜积分</value>
+  </data>
+  <data name="lang_packageCheap" xml:space="preserve">
+    <value>1、3元大礼包</value>
+  </data>
+  <data name="lang_packageDelete" xml:space="preserve">
+    <value>删除包裹</value>
+  </data>
+  <data name="lang_packageInsert" xml:space="preserve">
+    <value>上架打包商品</value>
+  </data>
+  <data name="lang_packageUpdate" xml:space="preserve">
+    <value>修改包裹</value>
+  </data>
+  <data name="lang_party" xml:space="preserve">
+    <value>组队副本</value>
+  </data>
+  <data name="lang_Partypoint" xml:space="preserve">
+    <value>组队点数</value>
+  </data>
+  <data name="lang_password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="lang_paydate" xml:space="preserve">
+    <value>结算日</value>
+  </data>
+  <data name="lang_payResult" xml:space="preserve">
+    <value>支付结果</value>
+  </data>
+  <data name="lang_pc1info" xml:space="preserve">
+    <value>战士的信息</value>
+  </data>
+  <data name="lang_pc1Item" xml:space="preserve">
+    <value>战士道具</value>
+  </data>
+  <data name="lang_pc1Reward" xml:space="preserve">
+    <value>战士的奖励</value>
+  </data>
+  <data name="lang_pc1stat" xml:space="preserve">
+    <value>战士的战斗力</value>
+  </data>
+  <data name="lang_pc2info" xml:space="preserve">
+    <value>刺客信息</value>
+  </data>
+  <data name="lang_pc2Item" xml:space="preserve">
+    <value>刺客道具</value>
+  </data>
+  <data name="lang_pc2reward" xml:space="preserve">
+    <value>刺客奖励</value>
+  </data>
+  <data name="lang_pc2stat" xml:space="preserve">
+    <value>刺客战斗力</value>
+  </data>
+  <data name="lang_pc3info" xml:space="preserve">
+    <value>方士信息</value>
+  </data>
+  <data name="lang_pc3Item" xml:space="preserve">
+    <value>方士的道具</value>
+  </data>
+  <data name="lang_pc3Reward" xml:space="preserve">
+    <value>方士奖励</value>
+  </data>
+  <data name="lang_pc3stat" xml:space="preserve">
+    <value>方士的战斗力</value>
+  </data>
+  <data name="lang_phoneNumber" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="lang_platfromID" xml:space="preserve">
+    <value>应用账户</value>
+  </data>
+  <data name="lang_point" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="lang_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="lang_postDate" xml:space="preserve">
+    <value>帖子日期</value>
+  </data>
+  <data name="lang_price" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="lang_progression" xml:space="preserve">
+    <value>进行状态</value>
+  </data>
+  <data name="lang_progressionType" xml:space="preserve">
+    <value>进行状况(完成/进行)</value>
+  </data>
+  <data name="lang_pve_dark" xml:space="preserve">
+    <value>英雄试炼</value>
+  </data>
+  <data name="lang_pve_elite" xml:space="preserve">
+    <value>精英副本</value>
+  </data>
+  <data name="lang_pvpAchieve" xml:space="preserve">
+    <value>对战成就</value>
+  </data>
+  <data name="lang_ranking" xml:space="preserve">
+    <value>排名</value>
+  </data>
+  <data name="lang_rankingDelete" xml:space="preserve">
+    <value>删除排名</value>
+  </data>
+  <data name="lang_rate" xml:space="preserve">
+    <value>概率</value>
+  </data>
+  <data name="lang_readFlag" xml:space="preserve">
+    <value>是否读取</value>
+  </data>
+  <data name="lang_receiveFlag" xml:space="preserve">
+    <value>是否领取</value>
+  </data>
+  <data name="lang_regdate" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="lang_regGM" xml:space="preserve">
+    <value>发布人</value>
+  </data>
+  <data name="lang_regularSale" xml:space="preserve">
+    <value>正规出售</value>
+  </data>
+  <data name="lang_Repeat" xml:space="preserve">
+    <value>重复</value>
+  </data>
+  <data name="lang_repeatMin" xml:space="preserve">
+    <value>以n分为间隔显示</value>
+  </data>
+  <data name="lang_RepeatType" xml:space="preserve">
+    <value>重复类型</value>
+  </data>
+  <data name="lang_resetCash" xml:space="preserve">
+    <value>重置花费</value>
+  </data>
+  <data name="lang_restore" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="lang_reward" xml:space="preserve">
+    <value>奖励</value>
+  </data>
+  <data name="lang_reward2" xml:space="preserve">
+    <value>奖励</value>
+  </data>
+  <data name="lang_rewardContents" xml:space="preserve">
+    <value>奖励邮件的内容</value>
+  </data>
+  <data name="lang_rewardFlag" xml:space="preserve">
+    <value>是否补偿</value>
+  </data>
+  <data name="lang_rewardTitle" xml:space="preserve">
+    <value>奖励邮件的标题</value>
+  </data>
+  <data name="lang_ruby" xml:space="preserve">
+    <value>红宝石</value>
+  </data>
+  <data name="lang_saturday" xml:space="preserve">
+    <value>周六</value>
+  </data>
+  <data name="lang_searchDate" xml:space="preserve">
+    <value>查询期间</value>
+  </data>
+  <data name="lang_searchType" xml:space="preserve">
+    <value>检索条件</value>
+  </data>
+  <data name="lang_sellIitemName" xml:space="preserve">
+    <value>出售物品的名称</value>
+  </data>
+  <data name="lang_sellItemID" xml:space="preserve">
+    <value>出售物品的ID</value>
+  </data>
+  <data name="lang_sellItemPrice" xml:space="preserve">
+    <value>出售物品的价格</value>
+  </data>
+  <data name="lang_sellItemTootip" xml:space="preserve">
+    <value>出售物品的提示窗口</value>
+  </data>
+  <data name="lang_server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="lang_serverAuth" xml:space="preserve">
+    <value>服务器权限</value>
+  </data>
+  <data name="lang_serverState" xml:space="preserve">
+    <value>服务器状态</value>
+  </data>
+  <data name="lang_serverStateChange" xml:space="preserve">
+    <value>更改服务器状态</value>
+  </data>
+  <data name="lang_service" xml:space="preserve">
+    <value>运营</value>
+  </data>
+  <data name="lang_shopNew" xml:space="preserve">
+    <value>商店的新标记</value>
+  </data>
+  <data name="lang_shoptype1" xml:space="preserve">
+    <value>普通商品</value>
+  </data>
+  <data name="lang_shoptype2" xml:space="preserve">
+    <value>双倍奖励商品</value>
+  </data>
+  <data name="lang_shoptype3" xml:space="preserve">
+    <value>福利卡</value>
+  </data>
+  <data name="lang_shoptype4" xml:space="preserve">
+    <value>累计购买次数的商品</value>
+  </data>
+  <data name="lang_shoptype5" xml:space="preserve">
+    <value>福利卡升级物品</value>
+  </data>
+  <data name="lang_shoptype6" xml:space="preserve">
+    <value>周卡</value>
+  </data>
+  <data name="lang_shoptype7" xml:space="preserve">
+    <value>礼包</value>
+  </data>
+  <data name="lang_slotID" xml:space="preserve">
+    <value>字段ID</value>
+  </data>
+  <data name="lang_slotName" xml:space="preserve">
+    <value>域名</value>
+  </data>
+  <data name="lang_snailID" xml:space="preserve">
+    <value>游旺账号</value>
+  </data>
+  <data name="lang_snailIndex" xml:space="preserve">
+    <value>游旺账号索引</value>
+  </data>
+  <data name="lang_sortNum" xml:space="preserve">
+    <value>顺序</value>
+  </data>
+  <data name="lang_soul" xml:space="preserve">
+    <value>武魂</value>
+  </data>
+  <data name="lang_soulCount" xml:space="preserve">
+    <value>碎片数量</value>
+  </data>
+  <data name="lang_soulPartCount" xml:space="preserve">
+    <value>武魂碎片数量</value>
+  </data>
+  <data name="lang_soulStone" xml:space="preserve">
+    <value>召唤石</value>
+  </data>
+  <data name="lang_spend" xml:space="preserve">
+    <value>消费</value>
+  </data>
+  <data name="lang_StackPrice" xml:space="preserve">
+    <value>组价格</value>
+  </data>
+  <data name="lang_starLevel" xml:space="preserve">
+    <value>星级</value>
+  </data>
+  <data name="lang_startdate" xml:space="preserve">
+    <value>开始日、时</value>
+  </data>
+  <data name="lang_startDay" xml:space="preserve">
+    <value>开始日</value>
+  </data>
+  <data name="lang_state" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="lang_stop" xml:space="preserve">
+    <value>终止</value>
+  </data>
+  <data name="lang_Subscription" xml:space="preserve">
+    <value>捐献</value>
+  </data>
+  <data name="lang_subSoul" xml:space="preserve">
+    <value>代表性一般武魂</value>
+  </data>
+  <data name="lang_sunday" xml:space="preserve">
+    <value>周日</value>
+  </data>
+  <data name="lang_Swordmaster" xml:space="preserve">
+    <value>刺客</value>
+  </data>
+  <data name="lang_Taoist" xml:space="preserve">
+    <value>方士</value>
+  </data>
+  <data name="lang_term" xml:space="preserve">
+    <value>期限</value>
+  </data>
+  <data name="lang_thursday" xml:space="preserve">
+    <value>周四</value>
+  </data>
+  <data name="lang_ticket" xml:space="preserve">
+    <value>入场券</value>
+  </data>
+  <data name="lang_title" xml:space="preserve">
+    <value>题目</value>
+  </data>
+  <data name="lang_tootip" xml:space="preserve">
+    <value>简单介绍</value>
+  </data>
+  <data name="lang_totalWarPoint" xml:space="preserve">
+    <value>总战斗力</value>
+  </data>
+  <data name="lang_tuesday" xml:space="preserve">
+    <value>周二</value>
+  </data>
+  <data name="lang_type" xml:space="preserve">
+    <value>种类</value>
+  </data>
+  <data name="lang_use" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="lang_userConnect" xml:space="preserve">
+    <value>是否登录</value>
+  </data>
+  <data name="lang_userCreationDate" xml:space="preserve">
+    <value>账号生成时间</value>
+  </data>
+  <data name="lang_userID" xml:space="preserve">
+    <value>UserID</value>
+  </data>
+  <data name="lang_userInfoEdit" xml:space="preserve">
+    <value>修改玩家信息</value>
+  </data>
+  <data name="lang_userLoginRestrict" xml:space="preserve">
+    <value>限制玩家登录</value>
+  </data>
+  <data name="lang_userLoginRestrictLog" xml:space="preserve">
+    <value>限制玩家登录日志</value>
+  </data>
+  <data name="lang_userLogSetting" xml:space="preserve">
+    <value>设置玩家登录等级</value>
+  </data>
+  <data name="lang_userName" xml:space="preserve">
+    <value>玩家名称</value>
+  </data>
+  <data name="lang_userNick" xml:space="preserve">
+    <value>账号名</value>
+  </data>
+  <data name="lang_userRestrict" xml:space="preserve">
+    <value>登录限制设置</value>
+  </data>
+  <data name="lang_userServerInfo" xml:space="preserve">
+    <value>已登录的玩家信息</value>
+  </data>
+  <data name="lang_validtime" xml:space="preserve">
+    <value>有效期限</value>
+  </data>
+  <data name="lang_viewReward" xml:space="preserve">
+    <value>查看奖励</value>
+  </data>
+  <data name="lang_violet" xml:space="preserve">
+    <value>紫罗兰</value>
+  </data>
+  <data name="lang_VIP" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="lang_viplelve" xml:space="preserve">
+    <value>VIP Level</value>
+  </data>
+  <data name="lang_vipPoint" xml:space="preserve">
+    <value>VIP Point</value>
+  </data>
+  <data name="lang_Warrior" xml:space="preserve">
+    <value>战士</value>
+  </data>
+  <data name="lang_wednesday" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="lang_week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="lang_white" xml:space="preserve">
+    <value>白</value>
+  </data>
+  <data name="lang_whole" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="lang_withdrawDate" xml:space="preserve">
+    <value>退出日期</value>
+  </data>
+  <data name="String187" xml:space="preserve">
+    <value>暴击防护</value>
+  </data>
+  <data name="lang_detectCount" xml:space="preserve">
+    <value>发现次数</value>
+  </data>
+</root>

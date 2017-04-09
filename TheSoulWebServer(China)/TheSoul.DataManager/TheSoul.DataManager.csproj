@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D03731AF-58EE-47A2-9685-FF3312321833}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheSoul.DataManager</RootNamespace>
+    <AssemblyName>TheSoul.DataManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_Ultimate_Disable;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;_Ultimate_Disable</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zlib.CF">
+      <HintPath>..\lib\Ionic.Zlib.CF.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=3.9.63.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\Account.cs" />
+    <Compile Include="Account\Account_DBClass.cs" />
+    <Compile Include="Account\Account_Define.cs" />
+    <Compile Include="Account\Account_Encrypt.cs" />
+    <Compile Include="Account\Account_Tutorial.cs" />
+    <Compile Include="Account\Account_Vip.cs" />
+    <Compile Include="BossRaid.cs" />
+    <Compile Include="Character\Character.cs" />
+    <Compile Include="Character\Character_DBClass.cs" />
+    <Compile Include="Character\Character_Define.cs" />
+    <Compile Include="Friends\Friend_FaceBook.cs" />
+    <Compile Include="Item\Item_Ultimate.cs" />
+    <Compile Include="Log_Define.cs" />
+    <Compile Include="PacketCrypto\Cryptography.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="DataManager_Define.cs" />
+    <Compile Include="Dungeon\Dungeon.cs" />
+    <Compile Include="Dungeon\Dungeon_DBClass.cs" />
+    <Compile Include="Dungeon\Dungeon_Define.cs" />
+    <Compile Include="Friends\Friend.cs" />
+    <Compile Include="Friends\Friends_DBClass.cs" />
+    <Compile Include="Friends\Friend_Define.cs" />
+    <Compile Include="Global\GlobalManager.cs" />
+    <Compile Include="Global\IniParser.cs" />
+    <Compile Include="GoldExpedition\GoldExpedition.cs" />
+    <Compile Include="GoldExpedition\GoldExpedition_Define.cs" />
+    <Compile Include="GoldExpedition\GoldExpedition_System.cs" />
+    <Compile Include="Guild\Guild.cs" />
+    <Compile Include="Guild\Guild_DBClass.cs" />
+    <Compile Include="Guild\Guild_Define.cs" />
+    <Compile Include="Guild\Guild_Manage.cs" />
+    <Compile Include="Item\Item_Accessory.cs" />
+    <Compile Include="Item\Item_Armor.cs" />
+    <Compile Include="Item\Item_Cape.cs" />
+    <Compile Include="Item\Item_DBClass.cs" />
+    <Compile Include="Item\Item_Define.cs" />
+    <Compile Include="Item\Item.cs" />
+    <Compile Include="DropBox.cs" />
+    <Compile Include="Item\Item_System.cs" />
+    <Compile Include="Item\Item_Weapon.cs" />
+    <Compile Include="PacketCrypto\SimpleCompressor.cs" />
+    <Compile Include="Platform\MOL.cs" />
+    <Compile Include="Platform\MyCard.cs" />
+    <Compile Include="Platform\PayPal.cs" />
+    <Compile Include="Ranking\Dummy_Player.cs" />
+    <Compile Include="Ranking\PvP_DBClass.cs" />
+    <Compile Include="Ranking\PvP_Overlord.cs" />
+    <Compile Include="Ranking\PvP_Reward.cs" />
+    <Compile Include="Ranking\PvP_System.cs" />
+    <Compile Include="Ranking\PvP_System_Define.cs" />
+    <Compile Include="SnailLog\LogManager.cs" />
+    <Compile Include="Mail.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ranking\PvP_Ranking.cs" />
+    <Compile Include="RandomExtensionMethods.cs" />
+    <Compile Include="Ranking\PvP_Ranking_Define.cs" />
+    <Compile Include="Shop\Shop.cs" />
+    <Compile Include="Shop\Shop_DBClass.cs" />
+    <Compile Include="Shop\Shop_Define.cs" />
+    <Compile Include="SnailLog\SnailLog_DBClass.cs" />
+    <Compile Include="SnailLog\SnailLog_Define.cs" />
+    <Compile Include="Soul\_DEL_SoulSkill.cs" />
+    <Compile Include="Soul\Soul.cs" />
+    <Compile Include="Soul\Soul_Active.cs" />
+    <Compile Include="Soul\Soul_DBClass.cs" />
+    <Compile Include="Soul\Soul_Define.cs" />
+    <Compile Include="Soul\Soul_Passive.cs" />
+    <Compile Include="Soul\Soul_Skill_Verify.cs" />
+    <Compile Include="Soul\Soul_System.cs" />
+    <Compile Include="SystemData.cs" />
+    <Compile Include="Result_Define.cs" />
+    <Compile Include="GoldExpedition\GoldExpedition_Class.cs" />
+    <Compile Include="TCP_Packet\CS_Packet_Define.cs" />
+    <Compile Include="TCP_Packet\TCP_Base.cs" />
+    <Compile Include="TCP_Packet\TCP_GM_Operation.cs" />
+    <Compile Include="Trigger\Trigger.cs" />
+    <Compile Include="Trigger\Trigger_7day.cs" />
+    <Compile Include="Trigger\Trigger_DBClass.cs" />
+    <Compile Include="Trigger\Trigger_Define.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mSeed.RedisManager\mSeed.RedisManager.csproj">
+      <Project>{a5ed0692-dc19-44f6-ba89-a29c476f05d0}</Project>
+      <Name>mSeed.RedisManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TxnBlock\mSeed.DBTxnBlock.csproj">
+      <Project>{3cdbf913-98fc-48bb-b3bd-9858212ab6c0}</Project>
+      <Name>mSeed.DBTxnBlock</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBTable_To_CSharpClass.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
