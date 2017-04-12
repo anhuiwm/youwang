@@ -1,10 +1,45 @@
-http://localhost:8080/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+http://localhost/TheSoulWebServer/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+http://localhost/TheSoulWebServer/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+http://localhost:11000/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+http://localhost:8083/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+http://localhost:8083/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
 
 http://120.92.227.117:11000/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=1234567893&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
 
-http://120.92.227.117:20002/index.aspx
 
-http://localhost:8083/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1%202017-03-30%2022:30:17,584%20[7]%20INFO%20WebLogger%20-%20requestOp:&AID:5
+http://120.92.227.117:11000/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+
+
+http://120.92.3.249:11000/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=1234567893&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+
+http://120.92.3.249:11000/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+
+http://localhost:11000/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+
+http://localhost:11000/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+
+
+http://localhost:11000/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=1234567893&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+http://192.168.1.241:11000/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
+
+http://192.168.1.241:11000/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=1234567893&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
+
+
+http://localhost:5100/billing.aspx?op=iab_validate&billing_type=22004&purchase_token=4836a91d3da1ef4b96353b0794f5fe346b855d91247d2082bd7177b3cb972e24&product_id=com.mfun.soulsea.45&service_access_id=10001&service_key=test&buy_date=2017-04-01&webIPandPort=127.0.0.1:11000&realToken=31ol_20170401_173159.138&price=1
+
+
+http://127.0.0.1/info.php
 
 createBillingID
 buy 
@@ -23,18 +58,9 @@ C++的协议的时候，
 
 客户端刷新。、
 
-http://120.92.227.117:20002/index.aspx
-superadmin	dpaTlem@1
-
 
 http://www.cnblogs.com/eggqing/p/5429983.html
 
 http://blog.csdn.net/aas319/article/details/50549995
 
 http://www.cnblogs.com/eggqing/p/5429983.html
-
-new System.IO.FileInfo(Server.MapPath(“~”)+@”\log4net.config”)
-
-[assembly: log4net.Config.XmlConfigurator(ConfigFile = "Web.config", ConfigFileExtension = "config", Watch = true)]
-
-new System.IO.FileInfo(“\log4net.config”)

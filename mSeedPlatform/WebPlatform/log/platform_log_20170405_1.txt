@@ -1,0 +1,22 @@
+[2017_04_05 22:42:40.346] [Debug (cache) : ["TXN [rollback] => [platform, 0.368021]"]]
+[2017_04_05 22:42:40.376] [Debug (cache) : ["TXN [rollback] => [platform, 0.0290016]"]]
+[2017_04_05 22:42:40.376] [Info () : wmlog###start::billing_type=Global_iOS_MOL&realToken=31ol_20170401_173146.420&purchaseToken=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45]
+[2017_04_05 22:42:40.376] [Info () : wmlog###start::billing_type=Global_iOS_MOL&realToken=31ol_20170401_173146.420&purchaseToken=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45]
+[2017_04_05 22:42:40.376] [Info () : error price is 0!!!]
+[2017_04_05 22:43:27.193] [Info () : wmlog###start::billing_type=Global_iOS_MOL&realToken=31ol_20170401_173146.420&purchaseToken=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45]
+[2017_04_05 22:43:30.338] [Info () : error price is 0!!!]
+[2017_04_05 22:44:30.146] [Info () : wmlog###start::billing_type=Global_iOS_MOL&realToken=31ol_20170401_173146.420&purchaseToken=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45]
+[2017_04_05 22:44:33.474] [Info () : dataParams::applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&amount=1&currencyCode=USD&paymentId=com.mfun.soulsea.45&returnUrl=http://107.150.101.9:5100/iosMolBilling.aspx&version=v1&description=product&customerId=127.0.0.1:11000-31ol_20170401_173146.420&signature=8b545543803c650a24c43d68297d940f]
+[2017_04_05 22:44:36.387] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_05 22:44:36.388] [Info (billing) : retBody= ]
+[2017_04_05 22:44:36.388] [Info (billing) : retBody= ]
+[2017_04_05 22:44:36.389] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_05 22:45:05.057] [Debug () : RequestURL : /WebPlatform/billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173146.420","price":"1"}
+ReturnJson : {"error":901}
+]
+[2017_04_05 22:45:26.067] [Info () : wmlog###start::billing_type=Global_iOS_MOL&realToken=31ol_20170401_173146.420&purchaseToken=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45]
+[2017_04_05 22:48:01.271] [Info () : dataParams::applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&amount=1&currencyCode=USD&paymentId=com.mfun.soulsea.45&returnUrl=http://107.150.101.9:5100/iosMolBilling.aspx&version=v1&description=product&customerId=127.0.0.1:11000-31ol_20170401_173146.420&signature=8b545543803c650a24c43d68297d940f]
+[2017_04_05 22:48:30.617] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_05 22:48:50.287] [Info (billing) : retBody= ]
+[2017_04_05 22:48:54.014] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]

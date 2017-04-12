@@ -1,0 +1,17 @@
+[2017_04_05 23:06:14.142] [Debug (cache) : ["TXN [rollback] => [platform, 0.2820161]"]]
+[2017_04_05 23:06:14.170] [Debug (cache) : ["TXN [rollback] => [platform, 0.0270015]"]]
+[2017_04_05 23:06:19.641] [Info () : wmlog###start::billing_type=Global_iOS_MOL&realToken=31ol_20170401_173146.420&purchaseToken=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&product_id=com.mfun.soulsea.45]
+[2017_04_05 23:06:21.367] [Info () : req::https://sandbox-api.mol.com/payout/payments/applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d&amount=1&currencyCode=USD&paymentId=com.mfun.soulsea.45&returnUrl=http://107.150.101.9:5100/iosMolBilling.aspx&version=v1&description=product&customerId=127.0.0.1:11000-31ol_20170401_173146.420&signature=8b545543803c650a24c43d68297d940f]
+[2017_04_05 23:07:29.176] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_05 23:07:29.177] [Info (billing) : retBody= ]
+[2017_04_05 23:07:29.177] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_05 23:07:29.220] [Debug () : RequestURL : /WebPlatform/billing.aspx
+RequestParam : {"op":"iab_validate","service_access_id":"10001","service_key":"test","billing_type":"22002","purchase_token":"5bb5345b8cb14dffd106f866fe4b481b1049860573018b23d72acc98769d146d","product_id":"com.mfun.soulsea.45","buy_date":"2017-04-01","webipandport":"127.0.0.1:11000","realtoken":"31ol_20170401_173146.420","price":"1"}
+ReturnJson : {"error":901}
+]
+[2017_04_05 23:08:53.445] [Info () : wmlog###start::billing_type=None&realToken=&purchaseToken=&product_id=]
+[2017_04_05 23:09:11.704] [Info () : req::https://sandbox-api.mol.com/payout/payments/applicationCode=09CPNLtJ1IDNwpXTu8hC7Z3OnUPK8b7R&referenceId=&amount=&currencyCode=USD&paymentId=&returnUrl=http://107.150.101.9:5100/iosMolBilling.aspx&version=v1&description=product&customerId=-&signature=ffa5c9815c02f593569dd037b7b9d330]
+[2017_04_05 23:10:06.200] [Debug (网址不通) : http request fail for 远程服务器返回错误: (400) 错误的请求。]
+[2017_04_05 23:10:06.203] [Info (billing) : retBody= ]
+[2017_04_05 23:10:06.203] [Info (billing) : GetReqeustURL为空https://sandbox-api.mol.com/payout/payments]
+[2017_04_05 23:10:06.310] [Critical () : system exception error = 未将对象引用设置到对象的实例。, stacktrace =    在 WebPlatform.Tools.WebQueryParam.Render(JsonObject json, eResult errorCode) 位置 d:\youwang\youwang\mSeedPlatform\WebPlatform\Tools\WebQueryParam.cs:行号 244]
