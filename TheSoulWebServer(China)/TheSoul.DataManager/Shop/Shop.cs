@@ -89,14 +89,14 @@ namespace TheSoul.DataManager
                 foreach (System_Shop_BlackMarket setItem in userShopList)
                 {
                     int BuyCount = 0;
-                    int BuyMaxCount = 0;
+                    int TotalBuyCount = 0;
                     User_Shop_Buy buyinfo = buyinfo = userItemBuy.Find(item => item.Shop_Goods_ID == setItem.Shop_Goods_ID);
                     if (buyinfo != null)
                     {
                         BuyCount = buyinfo.Buy_Count;
-                        BuyMaxCount = buyinfo.TotalBuy_Count;
+                        TotalBuyCount = buyinfo.TotalBuy_Count;
                     }
-                    retList.Add(new RetShopItem(setItem, BuyCount));
+                    retList.Add(new RetShopItem(setItem, BuyCount, TotalBuyCount));
                 }
             }
             else
@@ -116,17 +116,17 @@ namespace TheSoul.DataManager
                 foreach (System_Shop_Goods setItem in ShopGoods)
                 {
                     int BuyCount = 0;
-                    int BuyMaxCount = 0;
+                    int TotalBuyCount = 0;
                     User_Shop_Buy buyinfo = buyinfo = userItemBuy.Find(item => item.Shop_Goods_ID == setItem.Shop_Goods_ID);
                     if (buyinfo != null)
                     {
                         BuyCount = buyinfo.Buy_Count;
-                        BuyMaxCount = buyinfo.TotalBuy_Count;
+                        TotalBuyCount = buyinfo.TotalBuy_Count;
                     }
 
                     if (setItem.Type == (int)Shop_Define.eShopSaleType.BuyOnceSale && BuyCount < 1)
                     {
-                        RetShopItem ret = new RetShopItem(setItem, BuyCount);
+                        RetShopItem ret = new RetShopItem(setItem, BuyCount, TotalBuyCount);
                         ret.DoubleSwitch = setItem.DoubleSwitch;
                         ret.Discount = setItem.Discount;
                         retList.Add(ret);
@@ -136,7 +136,7 @@ namespace TheSoul.DataManager
                         var checkShopItem = checkBuyOnceItem.Find(shopItem => shopItem.ItemID == setItem.ItemID);
                         if (checkShopItem == null)
                         {
-                            RetShopItem ret = new RetShopItem(setItem, BuyCount);
+                            RetShopItem ret = new RetShopItem(setItem, BuyCount, TotalBuyCount);
                             ret.DoubleSwitch = setItem.DoubleSwitch;
                             ret.Discount = setItem.Discount;
                             retList.Add(ret);
@@ -146,7 +146,7 @@ namespace TheSoul.DataManager
                             var checkBuyItem = userItemBuy.Find(buyItemInfo => buyItemInfo.Shop_Goods_ID == checkShopItem.Shop_Goods_ID && buyItemInfo.Buy_Count > 0);
                             if (checkBuyItem != null)
                             {
-                                RetShopItem ret = new RetShopItem(setItem, BuyCount);
+                                RetShopItem ret = new RetShopItem(setItem, BuyCount, TotalBuyCount);
                                 ret.DoubleSwitch = setItem.DoubleSwitch;
                                 ret.Discount = setItem.Discount;
                                 retList.Add(ret);
@@ -236,7 +236,7 @@ namespace TheSoul.DataManager
 
                         if (alreadyBuys.Shop_Goods_ID== ShopGoodsID)
                         {                     /// 需要双倍
-                            if (PickItem.DoubleSwitch == 1 && alreadyBuys.Buy_Count <= 0)
+                            if (PickItem.DoubleSwitch == 1 && alreadyBuys.TotalBuy_Count <= 0)
                             {
                                 MultipleValue = PickItem.Discount / 100.0f;
                             }
@@ -498,7 +498,11 @@ namespace TheSoul.DataManager
                     if (retError == Result_Define.eResult.SUCCESS)
                         makeRealItem.AddRange(makeItem);
                     else
-                        break;
+                    {
+                        /// 其它的错误，不增加进入真正生成的列表中,原来是直接报错的。
+                        retError = Result_Define.eResult.SUCCESS;
+                        continue;
+                    }
                 }
             }
 
@@ -1165,6 +1169,7 @@ namespace TheSoul.DataManager
             BillingType = ProcessBillintType(BillingType);
 
             //string setKey = GetRediskey_Shop_System_Package_List();
+            /// 是否只获取全部激活的礼包
             string setQuery = takeAll ? string.Format(@"SELECT A.*, ISNULL(B.SaleStartTime, GETDATE()-1) AS SaleStartTime, ISNULL(B.SaleEndTime, getdate()+1) AS SaleEndTime 
                                                                 , ISNULL(C.Product_ID, '') as Product_ID
 		                                                        , ISNULL(C.PriceValue, 0) as ProductPrice

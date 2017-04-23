@@ -7,8 +7,8 @@ namespace mSeed.Platform
         public IData() {  }
 
         //protected const bool isTestMode = false;
-        public const string iosMolReturnUrl    = "http://107.150.101.9:5100/iosMolBilling.aspx";
-        public const string iosMolPinReturnUrl = "http://107.150.101.9:5100/iosMolBilling.aspx";
+        public const string iosMolReturnUrl    = "http://xjp.platform.rws.wannaplay.cn:5100/iosMolBilling.aspx";
+        public const string iosMolPinReturnUrl = "http://xjp.platform.rws.wannaplay.cn:5100/iosMolBilling.aspx";
 
     }
 

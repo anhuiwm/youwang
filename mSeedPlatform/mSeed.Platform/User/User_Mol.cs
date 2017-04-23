@@ -54,7 +54,7 @@ namespace mSeed.Platform
         /// <summary>
         ///  是否为测试环境
         /// </summary>
-        private const bool isDebug_MOL = false;
+        private const bool isDebug_MOL = true;
 
         //private const string molPinURL_IABVerify_SandBox = "https://sandbox.api.mol.com/payout/payments/molpoints/pin";         //测试环境
         //private const string molPinStoreURL_IABVerify_Product = "https://api.mol.com/payout/payments/molpoints/pin";            //正式环境
@@ -74,7 +74,6 @@ namespace mSeed.Platform
             string amount = price;
             string currencyCode = "USD";
             
-            //string returnUrl = "http://107.150.101.9:5100/iosMolBilling.aspx";
             string returnUrl = DataManger.GetInstance().GetIosMolResUrl();
             string version = "v1";
             string description = "product";
@@ -136,7 +135,7 @@ namespace mSeed.Platform
 
             // string amount = price;         
             // string currencyCode = "USD";
-            //string returnUrl = "http://107.150.101.9:5100/iosMolBilling.aspx";
+            //string returnUrl = "http://xjp.platform.rws.wannaplay.cn:5100/iosMolBilling.aspx";
             string returnUrl = DataManger.GetInstance().GetIosMolPinResUrl();
             string version = "v1";
             string description = "product";

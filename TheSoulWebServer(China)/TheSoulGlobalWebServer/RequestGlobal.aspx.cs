@@ -73,6 +73,10 @@ namespace TheSoulGlobalWebServer
                                 ;
                             json = mJsonSerializer.AddJson(json, "bIPPass", bIPPass ? "pass" : "fail");
 
+                            /// 是否使用facebook
+                            json = mJsonSerializer.AddJson(json, "bUseFacebook", TheSoulDBcon.bUseFacebookLogin ? "1" : "0");
+
+
                             /// 不是内部IP，且不是编辑器模式
                             if (platformType != (int)Global_Define.ePlatformType.EPlatformType_UnityEditer && !bIPPass)
                                 /// 在serverList中找到billingType不等于0且等于传过来的serverList

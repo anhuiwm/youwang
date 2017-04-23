@@ -3,8 +3,3 @@ E:\DarkBlaze\project\sg_server\mSeedPlatform\TxnBlock\bin\Release\mSeedDBTxnBloc
 E:\DarkBlaze\project\sg_server\mSeedPlatform\TxnBlock\obj\Release\mSeedDBTxnBlock.dll
 E:\DarkBlaze\project\sg_server\mSeedPlatform\TxnBlock\obj\Release\mSeedDBTxnBlock.pdb
 E:\DarkBlaze\project\sg_server\mSeedPlatform\TxnBlock\obj\Release\mSeed.DBTxnBlock.csprojResolveAssemblyReference.cache
-D:\mywork\sg_server\mSeedPlatform\TxnBlock\bin\Release\mSeedDBTxnBlock.dll
-D:\mywork\sg_server\mSeedPlatform\TxnBlock\bin\Release\mSeedDBTxnBlock.pdb
-D:\mywork\sg_server\mSeedPlatform\TxnBlock\obj\Release\mSeed.DBTxnBlock.csprojResolveAssemblyReference.cache
-D:\mywork\sg_server\mSeedPlatform\TxnBlock\obj\Release\mSeedDBTxnBlock.dll
-D:\mywork\sg_server\mSeedPlatform\TxnBlock\obj\Release\mSeedDBTxnBlock.pdb

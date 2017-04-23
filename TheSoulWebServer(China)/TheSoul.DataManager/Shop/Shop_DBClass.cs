@@ -340,6 +340,7 @@ namespace TheSoul.DataManager.DBClass
         public int group_id { get; set; }
         public int buy_count { get; set; }
         public int max_buy_count { get; set; }
+        public int total_buy_count { get; set; }
         public int sale_rate { get; set; }
         public string name_cn1 { get; set; }
         public string name_cn2 { get; set; }
@@ -362,7 +363,7 @@ namespace TheSoul.DataManager.DBClass
         public int Discount { get; set; }        /// 翻倍倍数
 
         public RetShopItem() { }
-        public RetShopItem(System_Shop_Limit_List setItem, int buyCount)
+        public RetShopItem(System_Shop_Limit_List setItem, int buyCount, int totalbuycount)
         {
             shop_item_id = setItem.Shop_Goods_ID;
             group_id = setItem.GroupID;
@@ -370,6 +371,7 @@ namespace TheSoul.DataManager.DBClass
             name_cn2 = setItem.NameCN2;
             tooltip_cn = setItem.ToolTipCN;
             max_buy_count = setItem.Max_Buy;
+            total_buy_count = totalbuycount;
             buy_count = buyCount;
             sale_rate = setItem.Sale_Rate;
             sale_starttime = setItem.SaleStartTime;
@@ -386,7 +388,7 @@ namespace TheSoul.DataManager.DBClass
             productid = setItem.Product_ID;
         }
 
-        public RetShopItem(System_Shop_BlackMarket setItem, int buyCount)
+        public RetShopItem(System_Shop_BlackMarket setItem, int buyCount, int totalbuycount)
         {
             shop_item_id = setItem.Shop_Goods_ID;
             group_id = setItem.GroupID;
@@ -394,6 +396,7 @@ namespace TheSoul.DataManager.DBClass
             name_cn2 = setItem.NameCN2;
             tooltip_cn = setItem.ToolTipCN;
             max_buy_count = setItem.Max_Buy;
+            total_buy_count = totalbuycount;
             buy_count = buyCount;
             sale_rate = 0;
             sale_starttime = 0;

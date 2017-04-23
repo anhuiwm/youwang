@@ -30,5 +30,19 @@ namespace TheSoulWebServer.Platform
             }
             return false;
         }
+
+        public static bool IsMolCard(Shop_Define.eBillingType BillingType)
+        {
+            if (
+            BillingType == Shop_Define.eBillingType.Global_aOS_MOLPin
+           || BillingType == Shop_Define.eBillingType.Global_iOS_MOLPin
+           || BillingType == Shop_Define.eBillingType.mfun_aOS_MOLPin
+           || BillingType == Shop_Define.eBillingType.mfun_iOS_MOLPin
+            )
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

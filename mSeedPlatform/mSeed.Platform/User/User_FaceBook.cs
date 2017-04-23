@@ -72,7 +72,11 @@ namespace mSeed.Platform
             dataParams.Append("&client_secret=");
             dataParams.Append(clientSecret);
             dataParams.Append("&grant_type=client_credentials");
+            //mSeed.Common.mLogger.mLogger.Info("wmlog::GetFaceBook_AppToken dataParams.ToString()=" + dataParams.ToString());
             string responseBody = WebTools.GetReqeustURL(FaceBookURL_GetAccessToken, dataParams.ToString(), false);
+
+            //mSeed.Common.mLogger.mLogger.Info("wmlog::GetFaceBook_AppToken responseBody=" + responseBody);
+
             if (!responseBody.Contains("access_token"))
                 FaceBookKeyList.Add(clientID, new FaceBookAppKey(responseBody));
             
@@ -120,16 +124,31 @@ namespace mSeed.Platform
                 retJson["error"] = "app_access_token_fail";
                 return retJson;
             }
+            JsonObject retjson = JsonObject.Parse(appkey);
+            string access_token_value;
+            if (!retjson.TryGetValue("access_token", out access_token_value))
+                access_token_value = string.Empty;
+
+            string token_type_value;
+            if (!retjson.TryGetValue("token_type", out token_type_value))
+                token_type_value = string.Empty;
 
             StringBuilder dataParams = new StringBuilder();
             dataParams.Append("input_token=");
             dataParams.Append(access_token);
             dataParams.Append("&");
-            dataParams.Append(appkey);
+            dataParams.Append("access_token=");
+            dataParams.Append(access_token_value);
+            dataParams.Append("&");
+            dataParams.Append("token_type=");
+            dataParams.Append(token_type_value);
+
 
             try
             {
+                mSeed.Common.mLogger.mLogger.Info("wmlog::GetUserProfileJson dataParams.ToString()=" + dataParams.ToString());
                 string responseBody = WebTools.GetReqeustURL(FaceBookURL_GetUserInfo, dataParams.ToString(), false);
+                mSeed.Common.mLogger.mLogger.Info("wmlog::GetUserProfileJson responseBody=" + responseBody);
                 JsonObject retJson = JsonObject.Parse(responseBody);
                 return retJson == null ? new JsonObject() : retJson;
             }
@@ -152,11 +171,24 @@ namespace mSeed.Platform
                 return retJson;
             }
 
+            JsonObject retjson = JsonObject.Parse(appkey);
+            string access_token_value;
+            if (!retjson.TryGetValue("access_token", out access_token_value))
+                access_token_value = string.Empty;
+            string token_type_value;
+            if (!retjson.TryGetValue("token_type", out token_type_value))
+                token_type_value = string.Empty;
+
             StringBuilder dataParams = new StringBuilder();
             dataParams.Append("input_token=");
             dataParams.Append(access_token);
             dataParams.Append("&");
-            dataParams.Append(appkey);
+            dataParams.Append("access_token=");
+            dataParams.Append(access_token_value);
+            dataParams.Append("&");
+            dataParams.Append("token_type=");
+            dataParams.Append(token_type_value);
+
 
             try
             {

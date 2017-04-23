@@ -24,7 +24,7 @@ namespace TheSoulGMTool
         {
             WebQueryParam queryFetcher = new WebQueryParam(true);
             string retJson = "";
-            string userid = queryFetcher.QueryParam_Fetch("uid", "");
+            string userid = queryFetcher.QueryParam_Fetch("uid", "superadmin");
 
             TxnBlock tb = new TxnBlock();
             {
@@ -35,8 +35,8 @@ namespace TheSoulGMTool
                     Result_Define.eResult retError = Result_Define.eResult.DB_ERROR;
                     if (Page.IsPostBack)
                     {
-                        string userpw = queryFetcher.QueryParam_Fetch("upw", "");
-                        string lang = queryFetcher.QueryParam_Fetch(gm_lang.UniqueID, "kr");
+                        string userpw = queryFetcher.QueryParam_Fetch("upw", "dpaTlem@1");
+                        string lang = queryFetcher.QueryParam_Fetch(gm_lang.UniqueID, "cn");
 
                         retError = (Result_Define.eResult)GMDataManager.GetLogin(ref tb, userid, userpw, lang);
                     }

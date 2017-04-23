@@ -108,6 +108,7 @@ namespace mSeed.Platform
                         serviceInfo = GameServiceManager.GetGameServiceInfo(service_access_id, service_key, (int)platform_type);
                         if (serviceInfo != null && serviceInfo.game_service_id > 0 && !string.IsNullOrEmpty(acc_token))         // by access token                 
                         {
+                            //mSeed.Common.mLogger.mLogger.Info("wmlog::UserPlatformAuth acc_token=" + acc_token);
                             string facebookID = GetFaceBookPlatformID(serviceInfo.service_app_id, serviceInfo.service_secret, acc_token); // by access token
                             if (!string.IsNullOrEmpty(facebookID))
                                 retObj = GetPlatformUID(ref TB, facebookID, platform_type);
