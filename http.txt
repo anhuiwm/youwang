@@ -1,3 +1,41 @@
+http://52.76.134.144:1080/webgame/
+
+http://52.76.134.144:1080/platform_log/
+
+http://localhost/h5pingtai/h5/admin.php?s=/Public/login.html
+
+http://localhost/easy_admin/admin.php
+
+http://localhost/h5pingtai/h5/admin.php
+
+
+http://localhost/h5pingtai/h5/media.php?s=/ThirdLogin/wechat_login.html
+
+http://localhost/h5pingtai/h5/media.php?s=/TuiRegister/login.html
+
+http://localhost/h5pingtai/h5/media.php?s=/ThirdLogin/wechat_login.html
+
+http://localhost/wm/wm/h5/media.php?s=/TuiRegister/login.html
+
+http://localhost/wm/wm/h5/media.php?s=/ThirdLogin/wechat_login.html
+http://120.92.227.117:20010/h5/media.php
+http://localhost:8088/h5/media.php
+
+http://localhost/wm/wm/h5/admin.php
+
+admin@crmclick.com 123
+nimdaae
+
+update dance_admin set password = md5( concat("nimdaae",md5("123")));
+
+
+
+ssh://git@192.168.1.245:10074/sg_server.git
+
+
+
+
+
 http://localhost/TheSoulWebServer/RequestShop.aspx?op=buy_billing_cash&aid=5&cid=58&billing_type=22001&billing_id=614ba6238b1863ee10622b6dc2036806bd013cdaebc90c6b76f1a934808500b5&product_id=aos_wns_45&billing_token=0324_163521.025&billing_uid=aa9244ec196b037b74e22e52af44d3edef5db07b81ec2f474ed8b34bd932218f&shop_item_id=2&ip=120.92.227.117&port=11000&Debug=1
 
 http://localhost/TheSoulWebServer/RequestAccount.aspx?op=login&aid=651&platform_type=100&billing_type=1000&version=0&s_mac=&s_os_type=0&reqid=0&Debug=1
